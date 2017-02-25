@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import SocialLink from '../SocialLink/SocialLink';
+
 import profilePhoto from '../../images/profile-2017-web@800.jpg';
 
 import './App.css';
@@ -47,18 +49,10 @@ class App extends Component {
   renderSocialLinks() {
     return (
       <ul className="social-links">
-        {SOCIAL_LINKS.map(this.renderSocialLink)}
+        {SOCIAL_LINKS.map((data, index) =>
+          <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} />
+        )}
       </ul>
-    );
-  }
-
-  renderSocialLink({ name, url, icon }, index) {
-    return (
-      <li className="social-link" key={index}>
-        <a className="social-link" href={url}>
-          <img className="social-icon" src={icon} alt={name} />
-        </a>
-      </li>
     );
   }
 

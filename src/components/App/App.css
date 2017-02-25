@@ -31,17 +31,3 @@
   padding: 0;
   list-style: none;
 }
-
-li.social-link {
-  display: inline-block;
-}
-
-a.social-link {
-  margin: .5rem;
-  padding: .5rem;
-  display: inline-block;
-}
-
-.social-icon {
-  height: 4em;
-}
