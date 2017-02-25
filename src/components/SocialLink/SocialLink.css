@@ -12,8 +12,11 @@ a.social-link {
 
 .social-icon {
   height: 4em;
-  position: absolute;
   transition: all .2s ease;
+}
+
+.social-icon.first {
+  position: absolute;
 }
 
 .social-icon.black {

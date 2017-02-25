@@ -18,7 +18,7 @@ class SocialLink extends Component {
       <li className="social-link">
         <a className="social-link" href={url}>
           <img
-            className={['social-icon', 'black'].join(' ')}
+            className={['social-icon', 'first', 'black'].join(' ')}
             src={icon}
             alt={name}
           />
