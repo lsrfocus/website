@@ -15,8 +15,8 @@ class SocialLink extends Component {
     const { name, url, icon, iconHover } = this.props;
 
     return (
-      <li className="social-link">
-        <a className="social-link" href={url}>
+      <li className="social-link-item">
+        <a className="social-link-anchor" href={url}>
           <img
             className={['social-icon', 'first', 'black'].join(' ')}
             src={icon}

@@ -1,8 +1,8 @@
-li.social-link {
+.social-link-item {
   display: inline-block;
 }
 
-a.social-link {
+.social-link-anchor {
   margin: .5rem;
   padding: .5rem;
   width: 4em;
@@ -22,7 +22,7 @@ a.social-link {
 .social-icon.black {
   opacity: 1;
 }
-a.social-link:hover .black {
+.social-link-anchor:hover .social-icon.black {
   opacity: 0;
   transform: scale(1.1);
 }
@@ -30,7 +30,7 @@ a.social-link:hover .black {
 .social-icon.color {
   opacity: 0;
 }
-a.social-link:hover .color {
+.social-link-anchor:hover .social-icon.color {
   opacity: 1;
   transform: scale(1.1);
 }
