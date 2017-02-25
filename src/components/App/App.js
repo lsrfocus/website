@@ -10,27 +10,32 @@ const SOCIAL_LINKS = [
   {
     name: 'Facebook',
     url: 'https://www.facebook.com/cooperka',
-    icon: require('../../images/Facebook-color.svg'),
+    icon: require('../../images/Facebook-black.svg'),
+    iconHover: require('../../images/Facebook-color.svg'),
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/cooperka92',
-    icon: require('../../images/LinkedIn-color.svg'),
+    icon: require('../../images/LinkedIn-black.svg'),
+    iconHover: require('../../images/LinkedIn-color.svg'),
   },
   {
     name: 'GitHub',
     url: 'https://github.com/cooperka',
-    icon: require('../../images/Github-color.svg'),
+    icon: require('../../images/Github-black.svg'),
+    iconHover: require('../../images/Github-color.svg'),
   },
   {
     name: 'Medium',
     url: 'https://medium.com/@cooperka',
-    icon: require('../../images/Medium-color.svg'),
+    icon: require('../../images/Medium-black.svg'),
+    iconHover: require('../../images/Medium-color.svg'),
   },
   {
     name: 'Tumblr',
     url: 'https://mentalmorsels.tumblr.com/',
-    icon: require('../../images/Tumblr-color.svg'),
+    icon: require('../../images/Tumblr-black.svg'),
+    iconHover: require('../../images/Tumblr-color.svg'),
   },
 ];
 
@@ -50,7 +55,7 @@ class App extends Component {
     return (
       <ul className="social-links">
         {SOCIAL_LINKS.map((data, index) =>
-          <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} />
+          <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} iconHover={data.iconHover} />
         )}
       </ul>
     );
