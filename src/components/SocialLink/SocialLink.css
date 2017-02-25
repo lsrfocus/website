@@ -15,18 +15,20 @@ a.social-link {
   position: absolute;
 }
 
-.hover-enter {
-  opacity: 0;
-}
-.hover-enter.hover-enter-active {
+.social-icon.black {
   opacity: 1;
-  transition: opacity 500ms ease;
+  transition: opacity 200ms ease;
+}
+.social-icon.black:hover {
+  opacity: 0;
+  transition: opacity 200ms ease;
 }
 
-.hover-leave {
-  opacity: 1;
-}
-.hover-leave.hover-leave-active {
+.social-icon.color {
   opacity: 0;
-  transition: opacity 500ms ease;
+  transition: opacity 200ms ease;
+}
+.social-icon.color:hover {
+  opacity: 1;
+  transition: opacity 200ms ease;
 }
