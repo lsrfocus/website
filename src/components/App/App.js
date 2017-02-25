@@ -20,6 +20,16 @@ const SOCIAL_LINKS = [
     url: 'https://github.com/cooperka',
     icon: require('../../images/Github-color.svg'),
   },
+  {
+    name: 'Medium',
+    url: 'https://medium.com/@cooperka',
+    icon: require('../../images/Medium-color.svg'),
+  },
+  {
+    name: 'Tumblr',
+    url: 'https://mentalmorsels.tumblr.com/',
+    icon: require('../../images/Tumblr-color.svg'),
+  },
 ];
 
 class App extends Component {
