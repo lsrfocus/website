@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from '../../images/logo.svg';
+import profilePhoto from '../../images/profile-2017-web@800.jpg';
 
 import './App.css';
 
@@ -27,7 +27,7 @@ class App extends Component {
   renderMainHeader() {
     return (
       <div className="main-header">
-        <img className="main-logo" src={logo} alt="logo" />
+        <img className="profile-photo" src={profilePhoto} alt="profile" />
         <div className="main-title">Kevin Cooper</div>
         <div className="main-subtitle">Software Engineer</div>
       </div>
