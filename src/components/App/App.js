@@ -8,14 +8,17 @@ const SOCIAL_LINKS = [
   {
     name: 'Facebook',
     url: 'https://www.facebook.com/cooperka',
+    icon: require('../../images/Facebook-color.svg'),
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/cooperka92',
+    icon: require('../../images/LinkedIn-color.svg'),
   },
   {
     name: 'GitHub',
     url: 'https://github.com/cooperka',
+    icon: require('../../images/Github-color.svg'),
   },
 ];
 
@@ -39,10 +42,12 @@ class App extends Component {
     );
   }
 
-  renderSocialLink({ name, url }, index) {
+  renderSocialLink({ name, url, icon }, index) {
     return (
       <li className="social-link" key={index}>
-        <a href={url}>{name}</a>
+        <a className="social-link" href={url}>
+          <img className="social-icon" src={icon} alt={name} />
+        </a>
       </li>
     );
   }

@@ -32,10 +32,18 @@
   list-style: none;
 }
 
-.social-link {
+li.social-link {
+  display: inline-block;
+}
+
+a.social-link {
   margin: .5rem;
   padding: .5rem;
-  font-size: 1.6em;
+  display: inline-block;
+}
+
+.social-icon {
+  height: 4em;
 }
 
 @keyframes main-logo-spin {
