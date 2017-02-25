@@ -5,9 +5,28 @@ li.social-link {
 a.social-link {
   margin: .5rem;
   padding: .5rem;
+  width: 4em;
+  height: 4em;
   display: inline-block;
 }
 
 .social-icon {
   height: 4em;
+  position: absolute;
+}
+
+.hover-enter {
+  opacity: 0;
+}
+.hover-enter.hover-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
+.hover-leave {
+  opacity: 1;
+}
+.hover-leave.hover-leave-active {
+  opacity: 0;
+  transition: opacity 500ms ease;
 }

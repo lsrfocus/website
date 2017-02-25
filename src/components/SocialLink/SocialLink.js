@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 import './SocialLink.css';
 
@@ -35,11 +36,18 @@ class SocialLink extends Component {
           onMouseOver={() => this.handleMouseOver()}
           onMouseOut={() => this.handleMouseOut()}
         >
-          <img
-            className="social-icon"
-            src={isHovering ? iconHover : icon}
-            alt={name}
-          />
+          <ReactCSSTransitionGroup
+            transitionName="hover"
+            transitionEnterTimeout={500}
+            transitionLeaveTimeout={500}
+          >
+            <img
+              key={isHovering}
+              className="social-icon"
+              src={isHovering ? iconHover : icon}
+              alt={name}
+            />
+          </ReactCSSTransitionGroup>
         </a>
       </li>
     );
