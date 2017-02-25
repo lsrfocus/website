@@ -29,13 +29,16 @@ class SocialLink extends Component {
 
     return (
       <li className="social-link">
-        <a className="social-link" href={url}>
+        <a
+          className="social-link"
+          href={url}
+          onMouseOver={() => this.handleMouseOver()}
+          onMouseOut={() => this.handleMouseOut()}
+        >
           <img
             className="social-icon"
             src={isHovering ? iconHover : icon}
             alt={name}
-            onMouseOver={() => this.handleMouseOver()}
-            onMouseOut={() => this.handleMouseOut()}
           />
         </a>
       </li>
