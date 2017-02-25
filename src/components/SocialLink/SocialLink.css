@@ -13,20 +13,21 @@ a.social-link {
 .social-icon {
   height: 4em;
   position: absolute;
+  transition: all .2s ease;
 }
 
 .social-icon.black {
   opacity: 1;
-  transition: all .2s ease;
 }
 a.social-link:hover .black {
   opacity: 0;
+  transform: scale(1.1);
 }
 
 .social-icon.color {
   opacity: 0;
-  transition: all .2s ease;
 }
 a.social-link:hover .color {
   opacity: 1;
+  transform: scale(1.1);
 }
