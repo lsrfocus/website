@@ -1,9 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 
 import SocialLink from './SocialLink';
 
 it('renders', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<SocialLink />, div);
+  const tree = renderer.create(
+    <SocialLink
+      name="name"
+      url="url"
+      icon="icon"
+      iconHover="iconHover"
+    />
+  );
+  expect(tree.toJSON()).toMatchSnapshot();
 });

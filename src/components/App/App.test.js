@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
 
 import App from './App';
 
+jest.mock('../SocialLink/SocialLink', () => 'SocialLink');
+
 it('renders', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  const tree = renderer.create(<App />);
+  expect(tree.toJSON()).toMatchSnapshot();
 });

@@ -1,0 +1,17 @@
+exports[`test renders 1`] = `
+<li
+  className="social-link-item">
+  <a
+    className="social-link-anchor"
+    href="url">
+    <img
+      alt="name"
+      className="social-icon first black"
+      src="icon" />
+    <img
+      alt="name"
+      className="social-icon color"
+      src="iconHover" />
+  </a>
+</li>
+`;
