@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-import './SocialLink.css';
+import './styles.css';
 
 class SocialLink extends Component {
 

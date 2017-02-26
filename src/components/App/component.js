@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import SocialLink from '../SocialLink/SocialLink';
+import SocialLink from '../SocialLink/component';
 
 import profilePhoto from '../../images/profile-2017-web@800.jpg';
 
-import './App.css';
+import './styles.css';
 
 const SOCIAL_LINKS = [
   {
