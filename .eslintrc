@@ -1,0 +1,16 @@
+{
+  "extends": "cooperka/react",
+
+  // Any rules here will override those from
+  // https://github.com/cooperka/eslint-config-cooperka.
+  "rules": {},
+
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+
+  "globals": {
+    "__DEV__": true
+  }
+}

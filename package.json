@@ -6,6 +6,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "lint": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject"
   },
   "dependencies": {
@@ -13,6 +14,12 @@
     "react-dom": "15.4.2"
   },
   "devDependencies": {
+    "eslint": "3.16.1",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-config-cooperka": "0.2.4",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.0",
     "react-scripts": "0.9.0",
     "react-test-renderer": "15.4.2"
   }
