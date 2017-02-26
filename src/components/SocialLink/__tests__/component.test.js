@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import SocialLink from '../component';
+import SocialLink from '../index';
 
 it('renders', () => {
   const tree = renderer.create(
@@ -10,7 +10,7 @@ it('renders', () => {
       url="url"
       icon="icon"
       iconHover="iconHover"
-    />
+    />,
   );
   expect(tree.toJSON()).toMatchSnapshot();
 });

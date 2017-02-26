@@ -1089,8 +1089,8 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.3.0"
 
 caniuse-db@^1.0.30000346, caniuse-db@^1.0.30000618, caniuse-db@^1.0.30000624:
-  version "1.0.30000626"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000626.tgz#44363dc86857efaf758fea9faef6a15ed93d8f33"
+  version "1.0.30000628"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000628.tgz#3d010e2a8e2537a8d135792e90e4f2ce0eb838cc"
 
 cardinal@^1.0.0:
   version "1.0.0"
@@ -2792,8 +2792,8 @@ is-glob@^3.1.0:
     is-extglob "^2.1.0"
 
 is-my-json-valid@^2.10.0, is-my-json-valid@^2.12.4:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/is-my-json-valid/-/is-my-json-valid-2.15.0.tgz#936edda3ca3c211fd98f3b2d3e08da43f7b2915b"
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/is-my-json-valid/-/is-my-json-valid-2.16.0.tgz#f079dd9bfdae65ee2038aae8acbc86ab109e3693"
   dependencies:
     generate-function "^2.0.0"
     generate-object-property "^1.1.0"

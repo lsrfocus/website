@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-import SocialLink from '../SocialLink/component';
+import SocialLink from '../SocialLink';
 
 import profilePhoto from '../../images/profile-2017-web@800.jpg';
 
 import './styles.css';
 
+/* eslint-disable global-require */
 const SOCIAL_LINKS = [
   {
     name: 'Facebook',
@@ -38,6 +39,7 @@ const SOCIAL_LINKS = [
     iconHover: require('../../images/Tumblr-color.svg'),
   },
 ];
+/* eslint-enable */
 
 class App extends Component {
 
@@ -55,7 +57,8 @@ class App extends Component {
     return (
       <ul className="social-links">
         {SOCIAL_LINKS.map((data, index) =>
-          <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} iconHover={data.iconHover} />
+          // eslint-disable-next-line react/no-array-index-key
+          <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} iconHover={data.iconHover} />,
         )}
       </ul>
     );
