@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 
 import profilePhoto from '../../images/profile-2017-web@800.jpg';
@@ -7,7 +9,9 @@ import SocialLink from '../SocialLink';
 
 import './styles.css';
 
-class App extends Component {
+type Props = {};
+
+class App extends Component<Props> {
 
   renderMainHeader() {
     return (

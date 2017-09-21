@@ -1,3 +1,5 @@
+// @flow
+
 /* eslint-disable global-require */
 export default [
   {

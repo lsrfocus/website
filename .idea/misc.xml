@@ -20,7 +20,7 @@
     </annotationProcessing>
   </component>
   <component name="JavaScriptSettings">
-    <option name="languageLevel" value="JSX" />
+    <option name="languageLevel" value="FLOW" />
   </component>
   <component name="masterDetails">
     <states>

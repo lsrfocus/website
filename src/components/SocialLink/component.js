@@ -1,8 +1,17 @@
-import React, { PropTypes } from 'react';
+// @flow
+
+import React from 'react';
 
 import './styles.css';
 
-const SocialLink = (props) => {
+type Props = {
+  name: string,
+  url: string,
+  icon: string,
+  iconHover: string,
+};
+
+const SocialLink = (props: Props) => {
   const { name, url, icon, iconHover } = props;
 
   return (
@@ -21,13 +30,6 @@ const SocialLink = (props) => {
       </a>
     </li>
   );
-};
-
-SocialLink.propTypes = {
-  name: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
-  iconHover: PropTypes.string.isRequired,
 };
 
 export default SocialLink;
