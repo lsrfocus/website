@@ -1,17 +1,23 @@
-exports[`test renders 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
 <li
-  className="social-link-item">
+  className="social-link-item"
+>
   <a
     className="social-link-anchor"
-    href="url">
+    href="url"
+  >
     <img
       alt="name"
       className="social-icon first black"
-      src="icon" />
+      src="icon"
+    />
     <img
       alt="name"
       className="social-icon color"
-      src="iconHover" />
+      src="iconHover"
+    />
   </a>
 </li>
 `;

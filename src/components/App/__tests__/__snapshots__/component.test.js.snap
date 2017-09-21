@@ -1,48 +1,61 @@
-exports[`test renders 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
 <div
-  className="App">
+  className="App"
+>
   <div
-    className="main-header">
+    className="main-header"
+  >
     <img
       alt="profile"
       className="profile-photo"
-      src="profile-2017-web@800.jpg" />
+      src="profile-2017-web@800.jpg"
+    />
     <div
-      className="main-title">
+      className="main-title"
+    >
       Kevin Cooper
     </div>
     <div
-      className="main-subtitle">
+      className="main-subtitle"
+    >
       Software Engineer
     </div>
   </div>
   <ul
-    className="social-links">
+    className="social-links"
+  >
     <SocialLink
       icon="Facebook-black.svg"
       iconHover="Facebook-color.svg"
       name="Facebook"
-      url="https://www.facebook.com/cooperka" />
+      url="https://www.facebook.com/cooperka"
+    />
     <SocialLink
       icon="LinkedIn-black.svg"
       iconHover="LinkedIn-color.svg"
       name="LinkedIn"
-      url="https://www.linkedin.com/in/cooperka92" />
+      url="https://www.linkedin.com/in/cooperka92"
+    />
     <SocialLink
       icon="Github-black.svg"
       iconHover="Github-color.svg"
       name="GitHub"
-      url="https://github.com/cooperka" />
+      url="https://github.com/cooperka"
+    />
     <SocialLink
       icon="Medium-black.svg"
       iconHover="Medium-color.svg"
       name="Medium"
-      url="https://medium.com/@cooperka" />
+      url="https://medium.com/@cooperka"
+    />
     <SocialLink
       icon="Tumblr-black.svg"
       iconHover="Tumblr-color.svg"
       name="Tumblr"
-      url="https://mentalmorsels.tumblr.com/" />
+      url="https://mentalmorsels.tumblr.com/"
+    />
   </ul>
 </div>
 `;
