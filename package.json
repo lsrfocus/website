@@ -5,13 +5,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:snapshot": "react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "15.6.1",
-    "react-dom": "15.6.1"
+    "react-dom": "15.6.1",
+    "react-snapshot": "1.2.0"
   },
   "devDependencies": {
     "babel-eslint": "8.0.0",
