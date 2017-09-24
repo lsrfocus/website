@@ -3,11 +3,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import SUT from '../component';
+import App from '../component';
 
 jest.mock('../../SocialLink/component', () => 'SocialLink');
 
 it('renders', () => {
-  const tree = renderer.create(<SUT />);
+  const tree = renderer.create(<App />);
   expect(tree.toJSON()).toMatchSnapshot();
 });

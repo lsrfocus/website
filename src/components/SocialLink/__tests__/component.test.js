@@ -3,7 +3,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import SocialLink from '../index';
+import SocialLink from '../component';
 
 it('renders', () => {
   const tree = renderer.create(
