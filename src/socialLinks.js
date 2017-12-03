@@ -27,6 +27,12 @@ export default [
     iconHover: require('./images/Medium-color.svg'),
   },
   {
+    name: 'Twitter',
+    url: 'https://twitter.com/cooperka92',
+    icon: require('./images/Twitter-black.svg'),
+    iconHover: require('./images/Twitter-color.svg'),
+  },
+  {
     name: 'Tumblr',
     url: 'https://mentalmorsels.tumblr.com/',
     icon: require('./images/Tumblr-black.svg'),
