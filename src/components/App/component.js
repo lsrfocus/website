@@ -26,9 +26,10 @@ class App extends Component<Props> {
   renderSocialLinks() {
     return (
       <ul className="social-links">
-        {SOCIAL_LINKS.map((data, index) =>
-          // eslint-disable-next-line react/no-array-index-key
-          <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} iconHover={data.iconHover} />,
+        {SOCIAL_LINKS.map(
+          (data, index) =>
+            // eslint-disable-next-line react/no-array-index-key
+            <SocialLink key={index} name={data.name} url={data.url} icon={data.icon} iconHover={data.iconHover} />,
         )}
       </ul>
     );
