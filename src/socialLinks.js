@@ -3,10 +3,10 @@
 /* eslint-disable global-require */
 export default [
   {
-    name: 'Facebook',
-    url: 'https://www.facebook.com/cooperka',
-    icon: require('./images/Facebook-black.svg'),
-    iconHover: require('./images/Facebook-color.svg'),
+    name: 'GitHub',
+    url: 'https://github.com/cooperka',
+    icon: require('./images/Github-black.svg'),
+    iconHover: require('./images/Github-color.svg'),
   },
   {
     name: 'LinkedIn',
@@ -15,16 +15,16 @@ export default [
     iconHover: require('./images/LinkedIn-color.svg'),
   },
   {
-    name: 'GitHub',
-    url: 'https://github.com/cooperka',
-    icon: require('./images/Github-black.svg'),
-    iconHover: require('./images/Github-color.svg'),
-  },
-  {
     name: 'Medium',
     url: 'https://medium.com/@cooperka',
     icon: require('./images/Medium-black.svg'),
     iconHover: require('./images/Medium-color.svg'),
+  },
+  {
+    name: 'Facebook',
+    url: 'https://www.facebook.com/cooperka',
+    icon: require('./images/Facebook-black.svg'),
+    iconHover: require('./images/Facebook-color.svg'),
   },
   {
     name: 'Twitter',
