@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build:snapshot": "react-scripts build && react-snapshot",
+    "clean": "rm -rf build",
+    "build": "yarn run clean && react-scripts build",
+    "build:snapshot": "yarn run build && react-snapshot",
+    "deploy": "yarn run build:snapshot && firebase deploy",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject"

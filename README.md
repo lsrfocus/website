@@ -17,7 +17,9 @@ See also [:sunglasses::cactus:.ws](http://😎🌵.ws) (don't judge, I like emoj
 
 ### Heroku
 
-To build for production on Heroku:
+To deploy, simply push to regular master and Heroku will pick it up.
+
+To locally build for production on Heroku:
 
 ```bash
 yarn run build
@@ -25,9 +27,17 @@ yarn run build
 
 It uses [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack) to serve the files.
 
+### Firebase
+
+To deploy manually:
+
+```bash
+yarn run deploy
+```
+
 ### Anything else
 
-To build for production on any other web server:
+To build locally for production:
 
 ```bash
 yarn run build:snapshot
