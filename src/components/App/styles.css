@@ -7,10 +7,10 @@
 .main-header {
   margin: 2em;
   margin-bottom: 0;
-  color: white;
+  color: black;
 }
 
-.profile-photo {
+.company-logo {
   height: 16em;
   border-radius: 8em;
 }

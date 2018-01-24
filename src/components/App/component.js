@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-import profilePhoto from '../../images/profile-2017-web@800.jpg';
+import logo from '../../images/full-logo.svg';
 import SOCIAL_LINKS from '../../socialLinks';
 
 import SocialLink from '../SocialLink';
@@ -16,9 +16,8 @@ class App extends Component<Props> {
   renderMainHeader() {
     return (
       <div className="main-header">
-        <img className="profile-photo" src={profilePhoto} alt="profile" />
-        <div className="main-title">Kevin Cooper</div>
-        <div className="main-subtitle">Software Engineer</div>
+        <img className="company-logo" src={logo} alt="Company logo" />
+        <div className="main-subtitle">Lovable. Simple. Refined.</div>
       </div>
     );
   }
