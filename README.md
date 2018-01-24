@@ -1,10 +1,6 @@
-# cooperka.com
+# LsrFocus.com
 
-[![Build status](https://travis-ci.org/cooperka/react-native-snackbar.svg?branch=master)](https://travis-ci.org/cooperka/react-native-snackbar)
-
-My [personal website](https://cooperka.herokuapp.com).
-
-See also [:sunglasses::cactus:.ws](http://😎🌵.ws) (don't judge, I like emoji).
+[![Build status](https://travis-ci.org/lsrfocus/website.svg?branch=master)](https://travis-ci.org/lsrfocus/website)
 
 ## Developing
 
@@ -14,18 +10,6 @@ See also [:sunglasses::cactus:.ws](http://😎🌵.ws) (don't judge, I like emoj
 3. `yarn test`
 
 ## Publishing
-
-### Heroku
-
-To deploy, simply push to regular master and Heroku will pick it up.
-
-To locally build for production on Heroku:
-
-```bash
-yarn run build
-```
-
-It uses [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack) to serve the files.
 
 ### Firebase
 
