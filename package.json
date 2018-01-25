@@ -7,7 +7,7 @@
     "clean": "rm -rf build",
     "build": "yarn run clean && react-scripts build",
     "build:snapshot": "yarn run build && react-snapshot",
-    "build:css": "node-sass src/vendor/ -o src/vendor/",
+    "build:css": "node-sass src/vendor/ -o src/vendor/ && sed -i 's/\\.material \\./.material./' src/vendor/materialize/sass/materialize.css",
     "deploy": "yarn run build:snapshot && firebase deploy",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint . --ext .js,.jsx",
