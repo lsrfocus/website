@@ -17,6 +17,17 @@ exports[`renders 1`] = `
     >
       Lovable. Simple. Refined.
     </div>
+    <div
+      className="main-subtitle"
+    >
+      Full website coming soon. 
+      <a
+        href="mailto:kevin@lsrfocus.com"
+      >
+        Contact us
+      </a>
+       for inquiries.
+    </div>
   </div>
   <ul
     className="social-links"
