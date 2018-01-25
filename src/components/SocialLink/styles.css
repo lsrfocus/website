@@ -6,11 +6,20 @@
   margin: .5rem;
   padding: .5rem;
   display: inline-block;
+  transition: all 0.2s ease;
+}
+.social-link-anchor:hover {
+  -webkit-filter: drop-shadow(0 3px 3px rgba(0,0,0,0.16));
+  filter: drop-shadow(0 3px 3px rgba(0,0,0,0.16));
 }
 
 .social-icon {
   height: 4em;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
+}
+.social-link-anchor:hover .social-icon {
+  -webkit-filter: drop-shadow(0 3px 3px rgba(0,0,0,0.23));
+  filter: drop-shadow(0 3px 3px rgba(0,0,0,0.23));
 }
 
 .social-icon.first {
