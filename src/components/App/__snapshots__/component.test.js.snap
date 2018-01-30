@@ -58,10 +58,10 @@ exports[`renders 1`] = `
       className="social-links"
     >
       <SocialLink
-        icon="Github-black.svg"
-        iconHover="Github-color.svg"
-        name="GitHub"
-        url="https://github.com/lsrfocus"
+        icon="Facebook-black.svg"
+        iconHover="Facebook-color.svg"
+        name="Facebook"
+        url="https://www.facebook.com/LsrFocus"
       />
       <SocialLink
         icon="LinkedIn-black.svg"
@@ -70,16 +70,16 @@ exports[`renders 1`] = `
         url="https://www.linkedin.com/company/18449687"
       />
       <SocialLink
-        icon="Facebook-black.svg"
-        iconHover="Facebook-color.svg"
-        name="Facebook"
-        url="https://www.facebook.com/LsrFocus"
-      />
-      <SocialLink
         icon="Twitter-black.svg"
         iconHover="Twitter-color.svg"
         name="Twitter"
         url="https://twitter.com/LsrFocus"
+      />
+      <SocialLink
+        icon="Github-black.svg"
+        iconHover="Github-color.svg"
+        name="GitHub"
+        url="https://github.com/lsrfocus"
       />
     </ul>
   </div>
