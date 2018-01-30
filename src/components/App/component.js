@@ -17,7 +17,9 @@ class App extends Component<Props> {
   renderNavBar() {
     return (
       <div className="nav-bar material z-depth-1">
-        <img className="company-logo" src={logo} alt="Company logo" />
+        <a href="/">
+          <img className="company-logo" src={logo} alt="Company logo" />
+        </a>
         <div className="buttons">
           <NavButton href="/">Home</NavButton>
           <NavButton href="mailto:kevin@lsrfocus.com">Contact</NavButton>

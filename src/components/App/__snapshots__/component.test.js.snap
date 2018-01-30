@@ -7,11 +7,15 @@ exports[`renders 1`] = `
   <div
     className="nav-bar material z-depth-1"
   >
-    <img
-      alt="Company logo"
-      className="company-logo"
-      src="logo.svg"
-    />
+    <a
+      href="/"
+    >
+      <img
+        alt="Company logo"
+        className="company-logo"
+        src="logo.svg"
+      />
+    </a>
     <div
       className="buttons"
     >
