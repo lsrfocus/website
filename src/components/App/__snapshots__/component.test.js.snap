@@ -4,11 +4,15 @@ exports[`renders 1`] = `
 <div
   className="App"
 >
-  <img
-    alt="Company logo"
-    className="company-logo"
-    src="full-logo.svg"
-  />
+  <div
+    className="nav-bar material z-depth-1"
+  >
+    <img
+      alt="Company logo"
+      className="company-logo"
+      src="full-logo.svg"
+    />
+  </div>
   <div
     className="main-header"
   >

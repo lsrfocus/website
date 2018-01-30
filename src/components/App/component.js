@@ -15,7 +15,9 @@ class App extends Component<Props> {
 
   renderNavBar() {
     return (
-      <img className="company-logo" src={logo} alt="Company logo" />
+      <div className="nav-bar material z-depth-1">
+        <img className="company-logo" src={logo} alt="Company logo" />
+      </div>
     );
   }
 
