@@ -2,31 +2,16 @@
 
 import React, { Component } from 'react';
 
-import logo from '../../images/logo.svg';
 import SOCIAL_LINKS from '../../socialLinks';
 
 import SocialLink from '../SocialLink';
-import NavButton from '../NavButton';
+import NavBar from '../NavBar';
 
 import './styles.css';
 
 type Props = {};
 
 class App extends Component<Props> {
-
-  renderNavBar() {
-    return (
-      <div className="nav-bar material z-depth-1">
-        <a href="/">
-          <img className="company-logo" src={logo} alt="Company logo" />
-        </a>
-        <div className="buttons">
-          <NavButton href="/">Home</NavButton>
-          <NavButton href="mailto:kevin@lsrfocus.com">Contact</NavButton>
-        </div>
-      </div>
-    );
-  }
 
   renderMainHeader() {
     return (
@@ -66,7 +51,7 @@ class App extends Component<Props> {
   render() {
     return (
       <div className="App">
-        {this.renderNavBar()}
+        <NavBar />
         {this.renderMainHeader()}
         {this.renderMainContent()}
         {this.renderFooter()}
