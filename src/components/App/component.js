@@ -31,6 +31,7 @@ class App extends Component<Props> {
       <div className="main-header">
         <div className="main-title">Lovable. Simple. Refined.</div>
         <div className="main-subtitle">I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to their needs.</div>
+        {this.renderSocialLinks()}
       </div>
     );
   }
@@ -40,7 +41,12 @@ class App extends Component<Props> {
   }
 
   renderFooter() {
-    return this.renderSocialLinks();
+    return (
+      <div className="footer">
+        <div>Full website coming soon.</div>
+        <div>&copy; 2018 Kevin Cooper</div>
+      </div>
+    );
   }
 
   renderSocialLinks() {
