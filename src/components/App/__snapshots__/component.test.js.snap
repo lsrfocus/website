@@ -10,7 +10,7 @@ exports[`renders 1`] = `
     <img
       alt="Company logo"
       className="company-logo"
-      src="full-logo.svg"
+      src="logo.svg"
     />
   </div>
   <div

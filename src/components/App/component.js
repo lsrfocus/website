@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-import logo from '../../images/full-logo.svg';
+import logo from '../../images/logo.svg';
 import SOCIAL_LINKS from '../../socialLinks';
 
 import SocialLink from '../SocialLink';
