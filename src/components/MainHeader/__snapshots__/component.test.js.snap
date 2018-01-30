@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="MainHeader"
+>
+  <div
+    className="title"
+  >
+    Lovable. Simple. Refined.
+  </div>
+  <div
+    className="subtitle"
+  >
+    I listen to users and build the 
+    <i>
+      minimal lovable solution
+    </i>
+     to their needs.
+  </div>
+  <ul
+    className="social-links"
+  >
+    <li
+      className="social-link-item"
+    >
+      <a
+        className="social-link-anchor"
+        href="https://www.facebook.com/LsrFocus"
+      >
+        <img
+          alt="Facebook"
+          className="social-icon first black"
+          src="Facebook-black.svg"
+        />
+        <img
+          alt="Facebook"
+          className="social-icon color"
+          src="Facebook-color.svg"
+        />
+      </a>
+    </li>
+    <li
+      className="social-link-item"
+    >
+      <a
+        className="social-link-anchor"
+        href="https://www.linkedin.com/company/18449687"
+      >
+        <img
+          alt="LinkedIn"
+          className="social-icon first black"
+          src="LinkedIn-black.svg"
+        />
+        <img
+          alt="LinkedIn"
+          className="social-icon color"
+          src="LinkedIn-color.svg"
+        />
+      </a>
+    </li>
+    <li
+      className="social-link-item"
+    >
+      <a
+        className="social-link-anchor"
+        href="https://twitter.com/LsrFocus"
+      >
+        <img
+          alt="Twitter"
+          className="social-icon first black"
+          src="Twitter-black.svg"
+        />
+        <img
+          alt="Twitter"
+          className="social-icon color"
+          src="Twitter-color.svg"
+        />
+      </a>
+    </li>
+    <li
+      className="social-link-item"
+    >
+      <a
+        className="social-link-anchor"
+        href="https://github.com/lsrfocus"
+      >
+        <img
+          alt="GitHub"
+          className="social-icon first black"
+          src="Github-black.svg"
+        />
+        <img
+          alt="GitHub"
+          className="social-icon color"
+          src="Github-color.svg"
+        />
+      </a>
+    </li>
+  </ul>
+</div>
+`;
