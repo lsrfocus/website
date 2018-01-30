@@ -13,14 +13,27 @@ type Props = {};
 
 class App extends Component<Props> {
 
+  renderNavBar() {
+    return (
+      <img className="company-logo" src={logo} alt="Company logo" />
+    );
+  }
+
   renderMainHeader() {
     return (
       <div className="main-header">
-        <img className="company-logo" src={logo} alt="Company logo" />
         <div className="main-subtitle">Lovable. Simple. Refined.</div>
         <div className="main-subtitle">Full website coming soon. <a href="mailto:kevin@lsrfocus.com">Contact us</a> for inquiries.</div>
       </div>
     );
+  }
+
+  renderMainContent() {
+    return null;
+  }
+
+  renderFooter() {
+    return this.renderSocialLinks();
   }
 
   renderSocialLinks() {
@@ -38,8 +51,10 @@ class App extends Component<Props> {
   render() {
     return (
       <div className="App">
+        {this.renderNavBar()}
         {this.renderMainHeader()}
-        {this.renderSocialLinks()}
+        {this.renderMainContent()}
+        {this.renderFooter()}
       </div>
     );
   }
