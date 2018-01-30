@@ -37,20 +37,18 @@ exports[`renders 1`] = `
     className="main-header"
   >
     <div
-      className="main-subtitle"
+      className="main-title"
     >
       Lovable. Simple. Refined.
     </div>
     <div
       className="main-subtitle"
     >
-      Full website coming soon. 
-      <a
-        href="mailto:kevin@lsrfocus.com"
-      >
-        Contact us
-      </a>
-       for inquiries.
+      I listen to users and build the 
+      <i>
+        minimal lovable solution
+      </i>
+       to their needs.
     </div>
   </div>
   <ul

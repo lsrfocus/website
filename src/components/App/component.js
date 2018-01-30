@@ -29,8 +29,8 @@ class App extends Component<Props> {
   renderMainHeader() {
     return (
       <div className="main-header">
-        <div className="main-subtitle">Lovable. Simple. Refined.</div>
-        <div className="main-subtitle">Full website coming soon. <a href="mailto:kevin@lsrfocus.com">Contact us</a> for inquiries.</div>
+        <div className="main-title">Lovable. Simple. Refined.</div>
+        <div className="main-subtitle">I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to their needs.</div>
       </div>
     );
   }
