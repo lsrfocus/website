@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<a
+  className="NavButton material waves-effect waves-teal btn-flat"
+  href="/test"
+>
+  <div>
+    Click me
+  </div>
+</a>
+`;

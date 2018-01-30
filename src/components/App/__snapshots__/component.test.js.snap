@@ -12,6 +12,26 @@ exports[`renders 1`] = `
       className="company-logo"
       src="logo.svg"
     />
+    <div
+      className="buttons"
+    >
+      <a
+        className="NavButton material waves-effect waves-teal btn-flat"
+        href="/"
+      >
+        <div>
+          Home
+        </div>
+      </a>
+      <a
+        className="NavButton material waves-effect waves-teal btn-flat"
+        href="mailto:kevin@lsrfocus.com"
+      >
+        <div>
+          Contact
+        </div>
+      </a>
+    </div>
   </div>
   <div
     className="main-header"

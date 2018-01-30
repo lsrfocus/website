@@ -6,6 +6,7 @@ import logo from '../../images/logo.svg';
 import SOCIAL_LINKS from '../../socialLinks';
 
 import SocialLink from '../SocialLink';
+import NavButton from '../NavButton';
 
 import './styles.css';
 
@@ -17,6 +18,10 @@ class App extends Component<Props> {
     return (
       <div className="nav-bar material z-depth-1">
         <img className="company-logo" src={logo} alt="Company logo" />
+        <div className="buttons">
+          <NavButton href="/">Home</NavButton>
+          <NavButton href="mailto:kevin@lsrfocus.com">Contact</NavButton>
+        </div>
       </div>
     );
   }
