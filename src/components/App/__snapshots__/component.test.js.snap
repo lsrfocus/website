@@ -51,15 +51,6 @@ exports[`renders 1`] = `
       />
     </ul>
   </div>
-  <div
-    className="footer"
-  >
-    <div>
-      Full website coming soon.
-    </div>
-    <div>
-      © 2018 Kevin Cooper
-    </div>
-  </div>
+  <Footer />
 </div>
 `;

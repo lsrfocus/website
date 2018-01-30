@@ -7,6 +7,7 @@ import App from './component';
 
 jest.mock('../SocialLink/component', () => 'SocialLink');
 jest.mock('../NavBar/component', () => 'NavBar');
+jest.mock('../Footer/component', () => 'Footer');
 
 it('renders', () => {
   const tree = renderer.create(<App />);

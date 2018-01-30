@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="Footer"
+>
+  <div>
+    Full website coming soon.
+  </div>
+  <div>
+    © 2018 Kevin Cooper
+  </div>
+</div>
+`;
