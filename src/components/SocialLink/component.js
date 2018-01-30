@@ -11,25 +11,25 @@ type Props = {
   iconHover: string,
 };
 
-const SocialLink = (props: Props) => {
+function SocialLink(props: Props) {
   const { name, url, icon, iconHover } = props;
 
   return (
-    <li className="social-link-item">
-      <a className="social-link-anchor" href={url}>
+    <li className="SocialLink">
+      <a href={url}>
         <img
-          className={['social-icon', 'first', 'black'].join(' ')}
+          className="social-icon black"
           src={icon}
           alt={name}
         />
         <img
-          className={['social-icon', 'color'].join(' ')}
+          className="social-icon color"
           src={iconHover}
           alt={name}
         />
       </a>
     </li>
   );
-};
+}
 
 export default SocialLink;

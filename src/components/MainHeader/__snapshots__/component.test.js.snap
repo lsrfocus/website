@@ -21,82 +21,30 @@ exports[`renders 1`] = `
   <ul
     className="social-links"
   >
-    <li
-      className="social-link-item"
-    >
-      <a
-        className="social-link-anchor"
-        href="https://www.facebook.com/LsrFocus"
-      >
-        <img
-          alt="Facebook"
-          className="social-icon first black"
-          src="Facebook-black.svg"
-        />
-        <img
-          alt="Facebook"
-          className="social-icon color"
-          src="Facebook-color.svg"
-        />
-      </a>
-    </li>
-    <li
-      className="social-link-item"
-    >
-      <a
-        className="social-link-anchor"
-        href="https://www.linkedin.com/company/18449687"
-      >
-        <img
-          alt="LinkedIn"
-          className="social-icon first black"
-          src="LinkedIn-black.svg"
-        />
-        <img
-          alt="LinkedIn"
-          className="social-icon color"
-          src="LinkedIn-color.svg"
-        />
-      </a>
-    </li>
-    <li
-      className="social-link-item"
-    >
-      <a
-        className="social-link-anchor"
-        href="https://twitter.com/LsrFocus"
-      >
-        <img
-          alt="Twitter"
-          className="social-icon first black"
-          src="Twitter-black.svg"
-        />
-        <img
-          alt="Twitter"
-          className="social-icon color"
-          src="Twitter-color.svg"
-        />
-      </a>
-    </li>
-    <li
-      className="social-link-item"
-    >
-      <a
-        className="social-link-anchor"
-        href="https://github.com/lsrfocus"
-      >
-        <img
-          alt="GitHub"
-          className="social-icon first black"
-          src="Github-black.svg"
-        />
-        <img
-          alt="GitHub"
-          className="social-icon color"
-          src="Github-color.svg"
-        />
-      </a>
-    </li>
+    <SocialLink
+      icon="Facebook-black.svg"
+      iconHover="Facebook-color.svg"
+      name="Facebook"
+      url="https://www.facebook.com/LsrFocus"
+    />
+    <SocialLink
+      icon="LinkedIn-black.svg"
+      iconHover="LinkedIn-color.svg"
+      name="LinkedIn"
+      url="https://www.linkedin.com/company/18449687"
+    />
+    <SocialLink
+      icon="Twitter-black.svg"
+      iconHover="Twitter-color.svg"
+      name="Twitter"
+      url="https://twitter.com/LsrFocus"
+    />
+    <SocialLink
+      icon="Github-black.svg"
+      iconHover="Github-color.svg"
+      name="GitHub"
+      url="https://github.com/lsrfocus"
+    />
   </ul>
 </div>
 `;
