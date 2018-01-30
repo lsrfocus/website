@@ -8,3 +8,13 @@ script:
  - yarn run lint
  - yarn run flow
  - yarn test
+
+before_deploy:
+ - yarn run build:snapshot
+
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: JRVjmJoOSMmfK4f7GVn57NxInBhdD3gsyyq/vMfV6oMgBMyxcK/L7UBpC/xQpRlimSUTN9N3e8NkhiktLwLem4bukwdlHuKCI4dAhTIzuUlBXGMy6vPQpqMXIEt6f+0zA5WQk7fDDRvsc5xJiu+QddkLHwCm30LBDOCMi91lvkFuefqLf6gLQ4mfPG3w8b/mQKCxpDn7zVSeVl5Hmnjsu+9RUNfgDo3kYJHHAoO6Pe3u5h0PgnPLatVOHjRRa8As/N0tXeQdn7fG84T8iAWPyN3+bjYzZnWiF5rm1XHakyTGSDUqYEn8jaOOAGUGdTShEQOsoY6ch2qwHq6GiGVDK8h8QkSr1M0keLB1z3UBwC9h43mTl3ARGBtKfEm/Twf48HV2zENdDjKj+Gl1O4+M/cR3y4Vi9dwz14r3jfCTRGyAtVA0GY4QFPuKJRd9N6DQ1Lfug7RKQttDbFJrXKA0vPh6OTpssTDjLwqORpB42O5wlCVMZVc5NVd51C5VHqGVDwPu/tssMr0W8T3Q4/DNHlx5abiOVhbvUPl7LSq9KH3GXDLU7B9r/5fXukMcEXYqgJk5fzK6kzaQX008jO3SLjXFEjgEivFimYExnn/lP4fVTRrUSBOZH+O2XoDaE15FuSOKqM7Jyt/Fms7IDF/qt1tJJAGnKYCEAyqwPqnGH7Q=
+  message: "Deployed by Travis CI."
