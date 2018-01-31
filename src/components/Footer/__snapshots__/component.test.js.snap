@@ -8,7 +8,7 @@ exports[`renders 1`] = `
     Full website coming soon.
   </div>
   <div>
-    © 2018 Kevin Cooper
+    © 2018 LSR software LLC
   </div>
 </div>
 `;
