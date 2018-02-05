@@ -1,4 +1,4 @@
-.MainHeader {
+.MainBody {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,17 +9,17 @@
   font-weight: bold;
 }
 
-.MainHeader .title {
+.MainBody .title {
   margin: 1rem;
   font-size: 5em;
 }
 
-.MainHeader .subtitle {
+.MainBody .subtitle {
   margin: 1rem auto;
   font-size: 2.2em;
   max-width: 20em;
 }
 
-.MainHeader .buttons {
+.MainBody .buttons {
   margin: 1rem auto;
 }

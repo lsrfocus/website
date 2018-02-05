@@ -5,7 +5,7 @@ exports[`renders 1`] = `
   className="App"
 >
   <NavBar />
-  <MainHeader />
+  <MainBody />
   <Footer />
 </div>
 `;

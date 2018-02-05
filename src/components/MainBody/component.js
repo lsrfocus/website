@@ -6,9 +6,9 @@ import NavButton from '../NavButton';
 
 import './styles.css';
 
-function MainHeader() {
+function MainBody() {
   return (
-    <div className="MainHeader">
+    <div className="MainBody">
       <div className="title">Lovable. Simple. Refined.</div>
       <div className="subtitle">
         I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to their needs.
@@ -20,4 +20,4 @@ function MainHeader() {
   );
 }
 
-export default MainHeader;
+export default MainBody;
