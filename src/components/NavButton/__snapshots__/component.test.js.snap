@@ -1,12 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders 1`] = `
-<a
-  className="NavButton material waves-effect waves-teal btn-flat"
-  href="/test"
+exports[`renders with border 1`] = `
+<div
+  className="NavButton bordered"
 >
-  <div>
-    Click me
-  </div>
-</a>
+  <a
+    className="material waves-effect waves-teal btn-flat"
+    href="/test"
+  >
+    <div>
+      Click me
+    </div>
+  </a>
+</div>
+`;
+
+exports[`renders without border 1`] = `
+<div
+  className="NavButton "
+>
+  <a
+    className="material waves-effect waves-teal btn-flat"
+    href="/test"
+  >
+    <div>
+      Click me
+    </div>
+  </a>
+</div>
 `;

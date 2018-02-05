@@ -16,22 +16,30 @@ exports[`renders 1`] = `
   <div
     className="buttons"
   >
-    <a
-      className="NavButton material waves-effect waves-teal btn-flat"
-      href="/"
+    <div
+      className="NavButton "
     >
-      <div>
-        Home
-      </div>
-    </a>
-    <a
-      className="NavButton material waves-effect waves-teal btn-flat"
-      href="mailto:kevin@lsrfocus.com"
+      <a
+        className="material waves-effect waves-teal btn-flat"
+        href="/"
+      >
+        <div>
+          Home
+        </div>
+      </a>
+    </div>
+    <div
+      className="NavButton "
     >
-      <div>
-        Contact
-      </div>
-    </a>
+      <a
+        className="material waves-effect waves-teal btn-flat"
+        href="mailto:kevin@lsrfocus.com"
+      >
+        <div>
+          Contact
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 `;

@@ -5,22 +5,25 @@ import React from 'react';
 import './styles.css';
 
 type Props = {
-  children: any,
   href?: string,
+  bordered?: boolean,
+  children: any,
 };
 
 function NavButton(props: Props) {
-  const { href, children } = props;
+  const { href, bordered, children } = props;
 
   return (
-    <a
-      className="NavButton material waves-effect waves-teal btn-flat"
-      href={href}
-    >
-      <div>
-        {children}
-      </div>
-    </a>
+    <div className={['NavButton', bordered ? 'bordered' : ''].join(' ')}>
+      <a
+        className="material waves-effect waves-teal btn-flat"
+        href={href}
+      >
+        <div>
+          {children}
+        </div>
+      </a>
+    </div>
   );
 }
 

@@ -1,7 +1,12 @@
-.NavButton {
+.NavButton div {
+  font-size: 1.3em;
   font-weight: bold;
 }
 
-.NavButton div {
-  font-size: 1.3em;
+.NavButton a {
+  text-decoration: none;
+}
+
+.NavButton.bordered {
+  border: 2px solid black;
 }

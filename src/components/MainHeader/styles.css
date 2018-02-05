@@ -19,3 +19,7 @@
   font-size: 2.2em;
   max-width: 20em;
 }
+
+.MainHeader .buttons {
+  margin: 1rem auto;
+}

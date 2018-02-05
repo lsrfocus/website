@@ -18,5 +18,21 @@ exports[`renders 1`] = `
     </i>
      to their needs.
   </div>
+  <div
+    className="buttons"
+  >
+    <div
+      className="NavButton bordered"
+    >
+      <a
+        className="material waves-effect waves-teal btn-flat"
+        href="mailto:kevin@lsrfocus.com"
+      >
+        <div>
+          Contact
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
 `;
