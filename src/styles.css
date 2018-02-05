@@ -1,12 +1,28 @@
 html {
   height: 100%;
   font-size: 62.5%;
+
+  /*
+   * Sizing to account for the nav bar and footer padding.
+   * See https://codepen.io/cbracco/pen/zekgx
+   */
+  box-sizing: border-box;
+}
+
+/* Sizing to account for the nav bar and footer padding. */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
-  height: 100%;
+  /* Padding and positioning to account for the nav bar and footer. */
+  position: relative;
+  min-height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 80px 0 180px 0;
+
   font-family: sans-serif;
 
   background: #FFF;

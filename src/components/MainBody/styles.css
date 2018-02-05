@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: center;
   min-height: 300px;
-  margin: 80px 0 0 0; /* Top margin to account for the nav bar. */
-  padding-top: 2em;
   color: #444;
   font-weight: bold;
 }

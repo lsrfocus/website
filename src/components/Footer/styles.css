@@ -1,12 +1,12 @@
 .Footer {
   width: 100%;
-  min-height: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   bottom: 0;
-  position:absolute;
+  position: absolute;
 }
 
 .Footer div {
