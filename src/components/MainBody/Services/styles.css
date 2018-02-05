@@ -1,12 +1,29 @@
 .Services {
+  margin-bottom: 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 300px;
   font-weight: bold;
 }
 
 .Services .title {
   margin: 1rem;
-  font-size: 5em;
+  font-size: 4em;
+}
+
+.Services .subtitle {
+  margin: 1rem auto;
+  font-size: 2em;
+  max-width: 20em;
+}
+
+.Services .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.Services .grid-item {
+  padding: 1em 2em;
+  font-size: 1.2em;
 }

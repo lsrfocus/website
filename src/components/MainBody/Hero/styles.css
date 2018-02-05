@@ -1,8 +1,9 @@
 .Hero {
+  min-height: 300px;
+  margin-bottom: 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 300px;
   font-weight: bold;
 }
 
