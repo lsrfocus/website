@@ -3,11 +3,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import MainBody from './component';
-
-jest.mock('./Hero/component', () => 'Hero');
+import Hero from './component';
 
 it('renders', () => {
-  const tree = renderer.create(<MainBody />);
+  const tree = renderer.create(<Hero />);
   expect(tree.toJSON()).toMatchSnapshot();
 });

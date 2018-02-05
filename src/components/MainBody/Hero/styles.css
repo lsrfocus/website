@@ -1,0 +1,23 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 300px;
+  color: #444;
+  font-weight: bold;
+}
+
+.Hero .title {
+  margin: 1rem;
+  font-size: 5em;
+}
+
+.Hero .subtitle {
+  margin: 1rem auto;
+  font-size: 2.2em;
+  max-width: 20em;
+}
+
+.Hero .buttons {
+  margin: 1rem auto;
+}

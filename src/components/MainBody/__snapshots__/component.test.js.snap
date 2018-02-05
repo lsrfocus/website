@@ -4,35 +4,6 @@ exports[`renders 1`] = `
 <div
   className="MainBody"
 >
-  <div
-    className="title"
-  >
-    Lovable. Simple. Refined.
-  </div>
-  <div
-    className="subtitle"
-  >
-    I listen to users and build the 
-    <i>
-      minimal lovable solution
-    </i>
-     to their needs.
-  </div>
-  <div
-    className="buttons"
-  >
-    <div
-      className="NavButton bordered"
-    >
-      <a
-        className="material waves-effect waves-teal btn-flat"
-        href="mailto:kevin@lsrfocus.com"
-      >
-        <div>
-          Contact
-        </div>
-      </a>
-    </div>
-  </div>
+  <Hero />
 </div>
 `;

@@ -1,23 +1,4 @@
 .MainBody {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 300px;
-  color: #444;
-  font-weight: bold;
-}
-
-.MainBody .title {
-  margin: 1rem;
-  font-size: 5em;
-}
-
-.MainBody .subtitle {
-  margin: 1rem auto;
-  font-size: 2.2em;
-  max-width: 20em;
-}
-
-.MainBody .buttons {
-  margin: 1rem auto;
 }
