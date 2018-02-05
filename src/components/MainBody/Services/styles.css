@@ -1,4 +1,4 @@
-.Hero {
+.Services {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,17 +6,7 @@
   font-weight: bold;
 }
 
-.Hero .title {
+.Services .title {
   margin: 1rem;
   font-size: 5em;
-}
-
-.Hero .subtitle {
-  margin: 1rem auto;
-  font-size: 2.2em;
-  max-width: 20em;
-}
-
-.Hero .buttons {
-  margin: 1rem auto;
 }

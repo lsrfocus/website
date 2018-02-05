@@ -2,9 +2,12 @@
 
 exports[`renders 1`] = `
 <div
-  className="MainBody"
+  className="Services"
 >
-  <Hero />
-  <Services />
+  <div
+    className="title"
+  >
+    Services
+  </div>
 </div>
 `;
