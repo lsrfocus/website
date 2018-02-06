@@ -15,13 +15,14 @@ type Props = {
 
 function NavButton(props: Props) {
   const { linkTo, externalLinkTo, bordered, children } = props;
+  const isRouterLink = !!linkTo;
 
   return (
     <Button
-      component={linkTo ? NavLink : 'a'}
+      component={isRouterLink ? NavLink : 'a'}
       className={['NavButton', bordered ? 'bordered' : ''].join(' ')}
       to={linkTo}
-      exact
+      exact={isRouterLink ? true : undefined}
       href={externalLinkTo}
     >
       <div className="link-text">

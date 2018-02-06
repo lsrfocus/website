@@ -23,7 +23,7 @@ exports[`renders 1`] = `
   >
     <a
       className="MuiButtonBase-root-16 MuiButton-root-1 NavButton bordered"
-      exact={true}
+      exact={undefined}
       href="mailto:kevin@lsrfocus.com"
       onBlur={[Function]}
       onFocus={[Function]}
