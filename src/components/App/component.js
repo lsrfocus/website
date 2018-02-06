@@ -1,20 +1,26 @@
 // @flow
 
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import routes from '../../routes';
 
 import NavBar from '../NavBar';
-import MainBody from '../MainBody';
 import Footer from '../Footer';
 
 import './styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <MainBody />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        {routes.map((route) => (
+          <Route key={route.path} exact path={route.path} component={route.component} />
+        ))}
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

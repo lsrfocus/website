@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -15,14 +16,14 @@ function NavButton(props: Props) {
 
   return (
     <div className={['NavButton', bordered ? 'bordered' : ''].join(' ')}>
-      <a
+      <Link
         className="material waves-effect waves-teal btn-flat"
-        href={href}
+        to={href}
       >
         <div>
           {children}
         </div>
-      </a>
+      </Link>
     </div>
   );
 }

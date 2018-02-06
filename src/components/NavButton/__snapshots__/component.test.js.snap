@@ -4,14 +4,14 @@ exports[`renders with border 1`] = `
 <div
   className="NavButton bordered"
 >
-  <a
+  <Link
     className="material waves-effect waves-teal btn-flat"
-    href="/test"
+    to="/test"
   >
     <div>
       Click me
     </div>
-  </a>
+  </Link>
 </div>
 `;
 
@@ -19,13 +19,13 @@ exports[`renders without border 1`] = `
 <div
   className="NavButton "
 >
-  <a
+  <Link
     className="material waves-effect waves-teal btn-flat"
-    href="/test"
+    to="/test"
   >
     <div>
       Click me
     </div>
-  </a>
+  </Link>
 </div>
 `;

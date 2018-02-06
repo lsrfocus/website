@@ -10,5 +10,13 @@
 
   "globals": {
     "__DEV__": true
+  },
+
+  "rules": {
+    // Recognize the valid 'to' attribute for react-router.
+    "jsx-a11y/anchor-is-valid": ["error", {
+      "components": ["Link"],
+      "specialLink": ["to"]
+    }]
   }
 }

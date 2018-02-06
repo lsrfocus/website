@@ -1,11 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders 1`] = `
-<div
-  className="App"
->
-  <NavBar />
-  <MainBody />
-  <Footer />
-</div>
+<Router>
+  <div
+    className="App"
+  >
+    <NavBar />
+    <Route
+      component="MainBody"
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/services"
+    />
+    <Footer />
+  </div>
+</Router>
 `;
