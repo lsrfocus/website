@@ -1,80 +1,84 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders 1`] = `
-<div
-  className="NavBar material z-depth-1"
+<header
+  className="MuiPaper-root-9 MuiPaper-shadow4-15 MuiAppBar-root-1 MuiAppBar-positionFixed-2 MuiAppBar-colorDefault-6 mui-fixed"
 >
-  <a
-    href="/"
-  >
-    <img
-      alt="Company logo"
-      className="logo"
-      src="logo.svg"
-    />
-  </a>
   <div
-    className="buttons"
+    className="MuiToolbar-root-36 MuiToolbar-gutters-37 NavBar"
   >
-    <Link
-      className="MuiButtonBase-root-16 MuiButton-root-1 NavButton "
-      href={undefined}
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      tabIndex={0}
-      to="/"
-    >
-      <span
-        className="MuiButton-label-2"
-      >
-        <div
-          className="link-text"
-        >
-          Home
-        </div>
-      </span>
-      <span
-        className="MuiTouchRipple-root-18"
-      />
-    </Link>
     <a
-      className="MuiButtonBase-root-16 MuiButton-root-1 NavButton "
-      href="mailto:kevin@lsrfocus.com"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex={0}
-      to={undefined}
+      href="/"
     >
-      <span
-        className="MuiButton-label-2"
-      >
-        <div
-          className="link-text"
-        >
-          Contact
-        </div>
-      </span>
-      <span
-        className="MuiTouchRipple-root-18"
+      <img
+        alt="Home"
+        className="logo"
+        src="logo.svg"
       />
     </a>
+    <div
+      className="buttons"
+    >
+      <Link
+        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        href={undefined}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
+        to="/"
+      >
+        <span
+          className="MuiButton-label-39"
+        >
+          <div
+            className="link-text"
+          >
+            Home
+          </div>
+        </span>
+        <span
+          className="MuiTouchRipple-root-55"
+        />
+      </Link>
+      <a
+        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        href="mailto:kevin@lsrfocus.com"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        to={undefined}
+      >
+        <span
+          className="MuiButton-label-39"
+        >
+          <div
+            className="link-text"
+          >
+            Contact
+          </div>
+        </span>
+        <span
+          className="MuiTouchRipple-root-55"
+        />
+      </a>
+    </div>
   </div>
-</div>
+</header>
 `;

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Reboot from 'material-ui/Reboot';
+import { Reboot } from 'material-ui';
 
 import routes from '../../routes';
 
