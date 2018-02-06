@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Button } from 'material-ui';
 
 import './styles.css';
@@ -18,9 +18,10 @@ function NavButton(props: Props) {
 
   return (
     <Button
-      component={linkTo ? Link : 'a'}
+      component={linkTo ? NavLink : 'a'}
       className={['NavButton', bordered ? 'bordered' : ''].join(' ')}
       to={linkTo}
+      exact
       href={externalLinkTo}
     >
       <div className="link-text">

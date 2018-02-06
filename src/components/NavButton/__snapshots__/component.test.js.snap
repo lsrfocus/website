@@ -1,8 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders with border 1`] = `
-<Link
+<NavLink
   className="MuiButtonBase-root-16 MuiButton-root-1 NavButton bordered"
+  exact={true}
   href={undefined}
   onBlur={[Function]}
   onFocus={[Function]}
@@ -30,12 +31,13 @@ exports[`renders with border 1`] = `
   <span
     className="MuiTouchRipple-root-18"
   />
-</Link>
+</NavLink>
 `;
 
 exports[`renders without border 1`] = `
-<Link
+<NavLink
   className="MuiButtonBase-root-16 MuiButton-root-1 NavButton "
+  exact={true}
   href={undefined}
   onBlur={[Function]}
   onFocus={[Function]}
@@ -63,5 +65,5 @@ exports[`renders without border 1`] = `
   <span
     className="MuiTouchRipple-root-18"
   />
-</Link>
+</NavLink>
 `;

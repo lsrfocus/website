@@ -19,8 +19,9 @@ exports[`renders 1`] = `
     <div
       className="buttons"
     >
-      <Link
+      <NavLink
         className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        exact={true}
         href={undefined}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -48,9 +49,10 @@ exports[`renders 1`] = `
         <span
           className="MuiTouchRipple-root-55"
         />
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        exact={true}
         href={undefined}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -78,9 +80,10 @@ exports[`renders 1`] = `
         <span
           className="MuiTouchRipple-root-55"
         />
-      </Link>
+      </NavLink>
       <a
         className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        exact={true}
         href="mailto:kevin@lsrfocus.com"
         onBlur={[Function]}
         onFocus={[Function]}

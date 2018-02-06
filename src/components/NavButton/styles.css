@@ -1,6 +1,9 @@
 .NavButton .link-text {
   font-size: 1.3em;
-  font-weight: bold;
+}
+
+.NavButton.active .link-text {
+  text-decoration: underline;
 }
 
 .NavButton a {
