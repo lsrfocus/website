@@ -3,7 +3,7 @@
   margin: 4em 0;
   display: flex;
   flex-direction: column;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .Services .title {
