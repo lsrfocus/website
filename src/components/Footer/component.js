@@ -12,7 +12,7 @@ function Footer() {
     <div className="Footer">
       {renderSocialLinks()}
       <div>Full website coming soon.</div>
-      <div>&copy; 2018 LSR software LLC</div>
+      <div>&copy; 2018 LSR Software LLC</div>
     </div>
   );
 }
