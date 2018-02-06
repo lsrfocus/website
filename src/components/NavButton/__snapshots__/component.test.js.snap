@@ -8,7 +8,9 @@ exports[`renders with border 1`] = `
     className="material waves-effect waves-teal btn-flat"
     to="/test"
   >
-    <div>
+    <div
+      className="link-text"
+    >
       Click me
     </div>
   </Link>
@@ -23,7 +25,9 @@ exports[`renders without border 1`] = `
     className="material waves-effect waves-teal btn-flat"
     to="/test"
   >
-    <div>
+    <div
+      className="link-text"
+    >
       Click me
     </div>
   </Link>

@@ -14,7 +14,7 @@ function Hero() {
         I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to their needs.
       </div>
       <div className="buttons">
-        <NavButton bordered href="mailto:kevin@lsrfocus.com">Contact</NavButton>
+        <NavButton bordered externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
       </div>
     </div>
   );

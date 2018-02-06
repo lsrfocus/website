@@ -1,4 +1,4 @@
-.NavButton div {
+.NavButton .link-text {
   font-size: 1.3em;
   font-weight: bold;
 }

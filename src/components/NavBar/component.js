@@ -15,8 +15,8 @@ function NavBar() {
         <img className="logo" src={logo} alt="Company logo" />
       </a>
       <div className="buttons">
-        <NavButton href="/">Home</NavButton>
-        <NavButton href="mailto:kevin@lsrfocus.com">Contact</NavButton>
+        <NavButton linkTo="/">Home</NavButton>
+        <NavButton externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
       </div>
     </div>
   );

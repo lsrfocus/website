@@ -6,24 +6,37 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 type Props = {
-  href?: string,
+  linkTo?: string,
+  externalLinkTo?: string,
   bordered?: boolean,
   children: any,
 };
 
 function NavButton(props: Props) {
-  const { href, bordered, children } = props;
+  const { linkTo, externalLinkTo, bordered, children } = props;
+
+  const innerLink = (
+    <div className="link-text">
+      {children}
+    </div>
+  );
+
+  // TODO: For some reason this effect doesn't work.
+  const linkClasses = 'material waves-effect waves-teal btn-flat';
+
+  const link = linkTo ? (
+    <Link to={linkTo} className={linkClasses}>
+      {innerLink}
+    </Link>
+  ) : (
+    <a href={externalLinkTo} className={linkClasses}>
+      {innerLink}
+    </a>
+  );
 
   return (
     <div className={['NavButton', bordered ? 'bordered' : ''].join(' ')}>
-      <Link
-        className="material waves-effect waves-teal btn-flat"
-        to={href}
-      >
-        <div>
-          {children}
-        </div>
-      </Link>
+      {link}
     </div>
   );
 }
