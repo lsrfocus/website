@@ -21,7 +21,7 @@ function NavButton(props: Props) {
     </div>
   );
 
-  // TODO: For some reason this effect doesn't work.
+  // TODO: Use the new material library instead.
   const linkClasses = 'material waves-effect waves-teal btn-flat';
 
   const link = linkTo ? (
