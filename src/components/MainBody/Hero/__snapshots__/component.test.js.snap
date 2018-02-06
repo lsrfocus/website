@@ -21,20 +21,35 @@ exports[`renders 1`] = `
   <div
     className="buttons"
   >
-    <div
-      className="NavButton bordered"
+    <a
+      className="MuiButtonBase-root-16 MuiButton-root-1 NavButton bordered"
+      href="mailto:kevin@lsrfocus.com"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      to={undefined}
     >
-      <a
-        className="material waves-effect waves-teal btn-flat"
-        href="mailto:kevin@lsrfocus.com"
+      <span
+        className="MuiButton-label-2"
       >
         <div
           className="link-text"
         >
           Contact
         </div>
-      </a>
-    </div>
+      </span>
+      <span
+        className="MuiTouchRipple-root-18"
+      />
+    </a>
   </div>
 </div>
 `;

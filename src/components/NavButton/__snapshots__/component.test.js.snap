@@ -1,35 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders with border 1`] = `
-<div
-  className="NavButton bordered"
+<Link
+  className="MuiButtonBase-root-16 MuiButton-root-1 NavButton bordered"
+  href={undefined}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="button"
+  tabIndex={0}
+  to="/test"
 >
-  <Link
-    className="material waves-effect waves-teal btn-flat"
-    to="/test"
+  <span
+    className="MuiButton-label-2"
   >
     <div
       className="link-text"
     >
       Click me
     </div>
-  </Link>
-</div>
+  </span>
+  <span
+    className="MuiTouchRipple-root-18"
+  />
+</Link>
 `;
 
 exports[`renders without border 1`] = `
-<div
-  className="NavButton "
+<Link
+  className="MuiButtonBase-root-16 MuiButton-root-1 NavButton "
+  href={undefined}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="button"
+  tabIndex={0}
+  to="/test"
 >
-  <Link
-    className="material waves-effect waves-teal btn-flat"
-    to="/test"
+  <span
+    className="MuiButton-label-2"
   >
     <div
       className="link-text"
     >
       Click me
     </div>
-  </Link>
-</div>
+  </span>
+  <span
+    className="MuiTouchRipple-root-18"
+  />
+</Link>
 `;
