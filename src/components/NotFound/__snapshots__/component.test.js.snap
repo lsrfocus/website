@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="NotFound"
+>
+  <div
+    className="subtitle"
+  >
+    The page at 
+    <code>
+      /test
+    </code>
+     doesn
+    '
+    t exist.
+  </div>
+  <div
+    className="subtitle"
+  >
+    Go back 
+    <Link
+      to="/"
+    >
+      home
+    </Link>
+    ?
+  </div>
+</div>
+`;

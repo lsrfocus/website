@@ -1,0 +1,10 @@
+.NotFound {
+  margin: 4em 0;
+  font-weight: bold;
+}
+
+.NotFound .subtitle {
+  margin: 1rem auto;
+  font-size: 2.2em;
+  max-width: 20em;
+}
