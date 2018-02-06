@@ -6,11 +6,6 @@
   margin: .5rem;
   padding: .5rem;
   display: inline-block;
-  transition: all 0.2s ease;
-}
-.SocialLink a:hover {
-  -webkit-filter: drop-shadow(0 3px 3px rgba(0,0,0,0.16));
-  filter: drop-shadow(0 3px 3px rgba(0,0,0,0.16));
 }
 
 .social-icon {
