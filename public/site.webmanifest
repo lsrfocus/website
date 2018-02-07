@@ -3,12 +3,12 @@
     "short_name": "LSR",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=YAo6bk09d6",
+            "src": "/android-chrome-192x192.png?v=47MJ24bJM7",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png?v=YAo6bk09d6",
+            "src": "/android-chrome-512x512.png?v=47MJ24bJM7",
             "sizes": "512x512",
             "type": "image/png"
         }
