@@ -11,7 +11,7 @@ function Hero() {
     <div className="Hero">
       <div className="title">Lovable. Simple. Refined.</div>
       <div className="subtitle">
-        I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to their needs.
+        I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to meet their needs.
       </div>
       <div className="buttons">
         <NavButton bordered externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
