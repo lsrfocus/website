@@ -10,13 +10,13 @@ exports[`renders 1`] = `
     About
   </div>
   <div
-    className="subtitle"
-  >
-    What does LSR mean?
-  </div>
-  <div
     className="section"
   >
+    <div
+      className="subtitle"
+    >
+      What does LSR mean?
+    </div>
     <div
       className="header"
     >
@@ -27,10 +27,6 @@ exports[`renders 1`] = `
     >
       People should love using your stuff.
     </div>
-  </div>
-  <div
-    className="section"
-  >
     <div
       className="header"
     >
@@ -41,10 +37,6 @@ exports[`renders 1`] = `
     >
       Your stuff should be understandable and straightforward.
     </div>
-  </div>
-  <div
-    className="section"
-  >
     <div
       className="header"
     >
@@ -59,13 +51,13 @@ exports[`renders 1`] = `
     </div>
   </div>
   <div
-    className="subtitle"
-  >
-    Why those three words?
-  </div>
-  <div
     className="section"
   >
+    <div
+      className="subtitle"
+    >
+      Why those three words?
+    </div>
     <div
       className="description"
     >

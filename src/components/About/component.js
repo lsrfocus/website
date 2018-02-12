@@ -8,21 +8,22 @@ function About() {
   return (
     <div className="About">
       <div className="title">About</div>
-      <div className="subtitle">What does LSR mean?</div>
+
       <div className="section">
+        <div className="subtitle">What does LSR mean?</div>
+
         <div className="header">L - Lovable</div>
         <div className="description">People should love using your stuff.</div>
-      </div>
-      <div className="section">
+
         <div className="header">S - Simple</div>
         <div className="description">Your stuff should be understandable and straightforward.</div>
-      </div>
-      <div className="section">
+
         <div className="header">R - Refined</div>
         <div className="description">Your stuff should improve over time; it{"'"}s probably not perfect yet.</div>
       </div>
-      <div className="subtitle">Why those three words?</div>
+
       <div className="section">
+        <div className="subtitle">Why those three words?</div>
         <div className="description">
           LSR comes from a combination of two powerful concepts in software development:{' '}
           <a href="http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">

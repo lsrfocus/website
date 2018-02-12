@@ -12,21 +12,23 @@
 }
 
 .About .subtitle {
-  margin: 1rem auto 0 auto;
+  margin: 1rem auto;
   font-size: 2.2em;
   max-width: 20em;
 }
 
 .About .section {
   margin: 1em auto;
-  font-size: 1.4em;
-  max-width: 40em;
+  max-width: 55em;
 }
 
 .About .section .header {
   margin-bottom: 0.5em;
+  font-size: 1.4em;
 }
 
 .About .section .description {
+  margin-bottom: 1em;
+  font-size: 1.4em;
   font-weight: normal;
 }
