@@ -10,51 +10,59 @@ exports[`renders 1`] = `
     Services
   </div>
   <div
-    className="subtitle"
+    className="section"
   >
-    Software development
+    <div
+      className="subtitle"
+    >
+      Software development
+    </div>
+    <div
+      className="grid-container"
+    >
+      <div
+        className="grid-item"
+      >
+        Web apps
+      </div>
+      <div
+        className="grid-item"
+      >
+        Mobile apps
+      </div>
+      <div
+        className="grid-item"
+      >
+        User testing
+      </div>
+      <div
+        className="grid-item"
+      >
+        Project planning
+      </div>
+    </div>
   </div>
   <div
-    className="grid-container"
+    className="section"
   >
     <div
-      className="grid-item"
+      className="subtitle"
     >
-      Web apps
+      Small business development
     </div>
     <div
-      className="grid-item"
+      className="grid-container"
     >
-      Mobile apps
-    </div>
-    <div
-      className="grid-item"
-    >
-      User testing
-    </div>
-    <div
-      className="grid-item"
-    >
-      Project planning
-    </div>
-  </div>
-  <div
-    className="subtitle"
-  >
-    Small business development
-  </div>
-  <div
-    className="grid-container"
-  >
-    <div
-      className="grid-item"
-    >
-      Strategic planning
-    </div>
-    <div
-      className="grid-item"
-    >
-      Team building
+      <div
+        className="grid-item"
+      >
+        Strategic planning
+      </div>
+      <div
+        className="grid-item"
+      >
+        Team building
+      </div>
     </div>
   </div>
 </div>
