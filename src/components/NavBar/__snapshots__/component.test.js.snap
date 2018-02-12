@@ -81,6 +81,37 @@ exports[`renders 1`] = `
           className="MuiTouchRipple-root-55"
         />
       </NavLink>
+      <NavLink
+        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        exact={true}
+        href={undefined}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
+        to="/about"
+      >
+        <span
+          className="MuiButton-label-39"
+        >
+          <div
+            className="link-text"
+          >
+            About
+          </div>
+        </span>
+        <span
+          className="MuiTouchRipple-root-55"
+        />
+      </NavLink>
       <a
         className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
         exact={undefined}

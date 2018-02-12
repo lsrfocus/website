@@ -1,0 +1,32 @@
+.About {
+  min-height: 300px;
+  margin: 4em 0;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.About .title {
+  margin: 1rem;
+  font-size: 5em;
+}
+
+.About .subtitle {
+  margin: 1rem auto 0 auto;
+  font-size: 2.2em;
+  max-width: 20em;
+}
+
+.About .section {
+  margin: 1em auto;
+  font-size: 1.4em;
+  max-width: 40em;
+}
+
+.About .section .header {
+  margin-bottom: 0.5em;
+}
+
+.About .section .description {
+  font-weight: normal;
+}

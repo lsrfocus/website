@@ -19,6 +19,7 @@ function NavBar() {
         <div className="buttons">
           <NavButton linkTo="/">Home</NavButton>
           <NavButton linkTo="/services">Services</NavButton>
+          <NavButton linkTo="/about">About</NavButton>
           <NavButton externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
         </div>
       </Toolbar>

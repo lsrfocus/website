@@ -1,5 +1,6 @@
 import MainBody from './components/MainBody';
 import Services from './components/Services';
+import About from './components/About';
 
 const routes = [
   {
@@ -9,6 +10,10 @@ const routes = [
   {
     path: '/services',
     component: Services,
+  },
+  {
+    path: '/about',
+    component: About,
   },
 ];
 
