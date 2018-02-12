@@ -25,7 +25,7 @@ exports[`renders 1`] = `
     <div
       className="description"
     >
-      People should love using your stuff.
+      People should love your stuff.
     </div>
     <div
       className="header"
@@ -47,7 +47,9 @@ exports[`renders 1`] = `
     >
       Your stuff should improve over time; it
       '
-      s probably not perfect yet.
+      s probably not perfect yet (and that
+      '
+      s okay).
     </div>
   </div>
   <div
@@ -74,7 +76,7 @@ exports[`renders 1`] = `
       >
         Build Measure Learn
       </a>
-      . I highly recommend reading through those links to know more.
+      . I highly recommend reading through those links to learn more.
     </div>
   </div>
 </div>
