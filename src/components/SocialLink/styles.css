@@ -9,7 +9,7 @@
 }
 
 .social-icon {
-  height: 3em;
+  height: 3rem;
   transition: all 0.2s ease;
 }
 .SocialLink a:hover .social-icon {

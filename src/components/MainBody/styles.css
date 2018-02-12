@@ -1,5 +1,5 @@
 .MainBody {
   display: flex;
   flex-direction: column;
-  margin: 0 2em;
+  margin: 0 2rem;
 }

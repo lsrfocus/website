@@ -1,5 +1,6 @@
 .NavButton .link-text {
-  font-size: 1.3em;
+  font-size: 1.1rem;
+  line-height: normal;
 }
 
 .NavButton.active .link-text {
