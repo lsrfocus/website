@@ -12,7 +12,7 @@ exports[`renders 1`] = `
   <div
     className="subtitle"
   >
-    End-to-end software development
+    Software development
   </div>
   <div
     className="grid-container"
@@ -35,7 +35,26 @@ exports[`renders 1`] = `
     <div
       className="grid-item"
     >
+      Project planning
+    </div>
+  </div>
+  <div
+    className="subtitle"
+  >
+    Small business development
+  </div>
+  <div
+    className="grid-container"
+  >
+    <div
+      className="grid-item"
+    >
       Strategic planning
+    </div>
+    <div
+      className="grid-item"
+    >
+      Team building
     </div>
   </div>
 </div>

@@ -20,7 +20,7 @@
 .Services .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
 }
 
 .Services .grid-item {
