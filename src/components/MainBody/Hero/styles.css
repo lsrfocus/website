@@ -11,6 +11,10 @@
   font-size: 5rem;
 }
 
+.Hero .section {
+  margin: 1rem auto;
+}
+
 .Hero .subtitle {
   margin: 1rem auto;
   font-size: 2.2rem;

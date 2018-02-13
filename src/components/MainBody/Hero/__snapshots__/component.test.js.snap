@@ -10,13 +10,17 @@ exports[`renders 1`] = `
     Lovable. Simple. Refined.
   </div>
   <div
-    className="subtitle"
+    className="section"
   >
-    I listen to users and build the 
-    <i>
-      minimal lovable solution
-    </i>
-     to meet their needs.
+    <div
+      className="subtitle"
+    >
+      I listen to users and build the 
+      <i>
+        minimal lovable solution
+      </i>
+       to meet their needs.
+    </div>
   </div>
   <div
     className="buttons"
