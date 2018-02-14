@@ -4,6 +4,7 @@ import React from 'react';
 import { AppBar, Toolbar } from 'material-ui';
 
 import logo from '../../images/logo.svg';
+import routes from '../../routes';
 
 import NavButton from '../NavButton';
 
@@ -17,10 +18,9 @@ function NavBar() {
           <img className="logo" src={logo} alt="Home" />
         </a>
         <div className="buttons">
-          <NavButton linkTo="/">Home</NavButton>
-          <NavButton linkTo="/services">Services</NavButton>
-          <NavButton linkTo="/about">About</NavButton>
-          <NavButton linkTo="/testimonials">Testimonials</NavButton>
+          {routes.map((route) => (
+            <NavButton key={route.path} linkTo={route.path}>{route.displayName}</NavButton>
+          ))}
           <NavButton externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
         </div>
       </Toolbar>
