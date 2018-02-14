@@ -1,18 +1,33 @@
 // @flow
 
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import 'typeface-roboto/index.css';
 
 import App from './components/App';
 
 import './styles.css';
 
-// Only if document is available; skip during static builds.
-if (typeof document !== 'undefined') {
-  // $FlowFixMe
-  render(<App />, document.getElementById('root'));
+function renderRoot(component) {
+  // Only if document is available; skip during static builds.
+  if (typeof document !== 'undefined') {
+    // $FlowFixMe
+    ReactDOM.render(component, document.getElementById('root'));
+  }
 }
+
+// Enable Hot Module Replacement (HMR).
+if (module.hot) {
+  module.hot.accept();
+
+  // TODO: This doesn't work.
+  // module.hot.accept('./components/App/component', () => {
+  //   // eslint-disable-next-line global-require
+  //   renderRoot(require('./components/App/component').default);
+  // });
+}
+
+renderRoot(<App />);
 
 // Export top level component for static rendering.
 export default App;
