@@ -9,7 +9,7 @@ script:
  - yarn test
 
 before_deploy:
- - yarn run build:snapshot
+ - yarn run build
 
 deploy:
   provider: firebase

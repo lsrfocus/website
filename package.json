@@ -1,13 +1,12 @@
 {
-  "name": "personal-site",
+  "name": "lsr-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-static start",
     "clean": "rm -rf build dist",
     "build": "yarn run clean && react-static build",
-    "build:snapshot": "yarn run build && react-snapshot",
-    "deploy": "yarn run build:snapshot && firebase deploy",
+    "deploy": "yarn run build && firebase deploy",
     "test": "react-scripts test --env=jsdom",
     "lint": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject"
@@ -18,7 +17,6 @@
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-router-dom": "4.2.2",
-    "react-snapshot": "1.3.0",
     "react-static": "5.1.8",
     "typeface-roboto": "0.0.54"
   },
