@@ -5,6 +5,29 @@ import Carousel from 'nuka-carousel';
 
 import './styles.css';
 
+const testimonials = [
+  {
+    quote: 'Kevin is an anti-entropy machine. He solves problems creatively, with intelligence and and ease. A special type of person: Kevin is collaborative, patient, and fiercely productive.',
+    attribution: 'Oscar Fossum, WeCount',
+    date: 'December 2017',
+  },
+  {
+    quote: 'Kevin is meticulous in his thinking when solving difficult problems. I was impressed with the clarity of thought he exhibited. Kevin is really process oriented and has shown great leadership skills.',
+    attribution: 'Karnesh Mehra, Yahoo',
+    date: 'June 2016',
+  },
+  {
+    quote: 'Kevin was instrumental in establishing our project management systems, deciding on the best languages and softwares to use, and tactfully engaging with volunteer teammates to complete tasks.',
+    attribution: 'Oscar Fossum, WeCount',
+    date: 'December 2017',
+  },
+  {
+    quote: 'Kevin was concerned with not only the business operations of the company but also the social and ethical aspects. I would love to work with him in the future.',
+    attribution: 'Torehan Sharman, Cribspot',
+    date: 'January 2018',
+  },
+];
+
 function Testimonials() {
   return (
     <div className="Testimonials page">
@@ -12,34 +35,14 @@ function Testimonials() {
       <Carousel
         wrapAround
       >
-        <div className="section">
-          <div className="quote">
-            {'"Kevin is an anti-entropy machine. He solves problems creatively, with intelligence and and ease. A special type of person: Kevin is collaborative, patient, and fiercely productive."'}
+        {testimonials.map((testimonial, index) => (
+          // eslint-disable-next-line react/no-array-index-key
+          <div className="section" key={index}>
+            <div className="quote">{`"${testimonial.quote}"`}</div>
+            <div className="attribution">{testimonial.attribution}</div>
+            <div className="date">{testimonial.date}</div>
           </div>
-          <div className="attribution">Oscar Fossum, WeCount</div>
-          <div className="date">December 2017</div>
-        </div>
-        <div className="section">
-          <div className="quote">
-            {'"Kevin is meticulous in his thinking when solving difficult problems. I was impressed with the clarity of thought he exhibited. Kevin is really process oriented and has shown great leadership skills."'}
-          </div>
-          <div className="attribution">Karnesh Mehra, Yahoo</div>
-          <div className="date">June 2016</div>
-        </div>
-        <div className="section">
-          <div className="quote">
-            {'"Kevin was instrumental in establishing our project management systems, deciding on the best languages and softwares to use, and tactfully engaging with volunteer teammates to complete tasks."'}
-          </div>
-          <div className="attribution">Oscar Fossum, WeCount</div>
-          <div className="date">December 2017</div>
-        </div>
-        <div className="section">
-          <div className="quote">
-            {'"Kevin was concerned with not only the business operations of the company but also the social and ethical aspects. I would love to work with him in the future."'}
-          </div>
-          <div className="attribution">Torehan Sharman, Cribspot</div>
-          <div className="date">January 2018</div>
-        </div>
+        ))}
       </Carousel>
     </div>
   );
