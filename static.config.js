@@ -32,7 +32,6 @@ export default {
   ],
 
   /* eslint-disable react/prop-types */
-  // TODO xmlns:fb="http://ogp.me/ns/fb#"
   Document: ({ Html, Head, Body, children, siteData }) => (
     <Html
       lang="en"
