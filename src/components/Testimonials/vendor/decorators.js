@@ -5,25 +5,27 @@
 // Vendor file. See https://github.com/FormidableLabs/nuka-carousel/blob/master/LICENSE.
 //
 
-'use strict';
+/* eslint-disable padded-blocks, react/prop-types, react/sort-comp, react/no-multi-comp */
 
-import React from 'react';
-import createReactClass from 'create-react-class';
+import React, { Component } from 'react';
 
 const DefaultDecorators = [
   {
-    component: createReactClass({
+    component: class extends Component {
       render() {
         return (
           <button
             style={this.getButtonStyles(this.props.currentSlide === 0 && !this.props.wrapAround)}
-            onClick={this.handleClick}>PREV</button>
-        )
-      },
+            onClick={(e) => this.handleClick(e)}
+          >
+            PREV
+          </button>
+        );
+      }
       handleClick(e) {
         e.preventDefault();
         this.props.previousSlide();
-      },
+      }
       getButtonStyles(disabled) {
         return {
           border: 0,
@@ -32,25 +34,31 @@ const DefaultDecorators = [
           padding: 10,
           outline: 0,
           opacity: disabled ? 0.3 : 1,
-          cursor: 'pointer'
-        }
+          cursor: 'pointer',
+        };
       }
-    }),
-    position: 'CenterLeft'
+    },
+    position: 'CenterLeft',
   },
   {
-    component: createReactClass({
+    component: class extends Component {
       render() {
         return (
           <button
-            style={this.getButtonStyles(this.props.currentSlide + this.props.slidesToScroll >= this.props.slideCount && !this.props.wrapAround)}
-            onClick={this.handleClick}>NEXT</button>
-        )
-      },
+            style={this.getButtonStyles(
+              this.props.currentSlide + this.props.slidesToScroll
+              >= this.props.slideCount && !this.props.wrapAround,
+            )}
+            onClick={(e) => this.handleClick(e)}
+          >
+            NEXT
+          </button>
+        );
+      }
       handleClick(e) {
         e.preventDefault();
         this.props.nextSlide();
-      },
+      }
       getButtonStyles(disabled) {
         return {
           border: 0,
@@ -59,56 +67,57 @@ const DefaultDecorators = [
           padding: 10,
           outline: 0,
           opacity: disabled ? 0.3 : 1,
-          cursor: 'pointer'
-        }
+          cursor: 'pointer',
+        };
       }
-    }),
-    position: 'CenterRight'
+    },
+    position: 'CenterRight',
   },
   {
-    component: createReactClass({
+    component: class extends Component {
       render() {
-        var self = this;
-        var indexes = this.getIndexes(self.props.slideCount, self.props.slidesToScroll);
+        const self = this;
+        const indexes = this.getIndexes(self.props.slideCount, self.props.slidesToScroll);
         return (
           <ul style={self.getListStyles()}>
             {
-              indexes.map(function(index) {
+              indexes.map((index) => {
                 return (
                   <li style={self.getListItemStyles()} key={index}>
                     <button
                       style={self.getButtonStyles(self.props.currentSlide === index)}
-                      onClick={self.props.goToSlide.bind(null, index)}>
+                      onClick={() => self.props.goToSlide(index)}
+                    >
                       &bull;
                     </button>
                   </li>
-                )
+                );
               })
             }
           </ul>
-        )
-      },
+        );
+      }
       getIndexes(count, inc) {
-        var arr = [];
-        for (var i = 0; i < count; i += inc) {
+        const arr = [];
+        for (let i = 0; i < count; i += inc) {
           arr.push(i);
         }
         return arr;
-      },
+      }
       getListStyles() {
         return {
           position: 'relative',
           margin: 0,
           top: -10,
-          padding: 0
-        }
-      },
+          padding: 0,
+        };
+      }
       getListItemStyles() {
         return {
           listStyleType: 'none',
-          display: 'inline-block'
-        }
-      },
+          display: 'inline-block',
+        };
+      }
       getButtonStyles(active) {
         return {
           border: 0,
@@ -118,12 +127,12 @@ const DefaultDecorators = [
           padding: 10,
           outline: 0,
           fontSize: 24,
-          opacity: active ? 1 : 0.5
-        }
+          opacity: active ? 1 : 0.5,
+        };
       }
-    }),
-    position: 'BottomCenter'
-  }
+    },
+    position: 'BottomCenter',
+  },
 ];
 
 export default DefaultDecorators;
