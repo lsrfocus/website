@@ -12,7 +12,10 @@ function renderRoot(component) {
   // Only if document is available; skip during static builds.
   if (typeof document !== 'undefined') {
     // $FlowFixMe
-    ReactDOM.render(component, document.getElementById('root'));
+    const renderMethod = module.hot ? ReactDOM.render : ReactDOM.hydrate;
+
+    // $FlowFixMe
+    renderMethod(component, document.getElementById('root'));
   }
 }
 
