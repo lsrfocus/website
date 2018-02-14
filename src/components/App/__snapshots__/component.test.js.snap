@@ -24,6 +24,11 @@ exports[`renders 1`] = `
       />
       <Route
         component={[Function]}
+        exact={true}
+        path="/testimonials"
+      />
+      <Route
+        component={[Function]}
       />
     </Switch>
     <Footer />
