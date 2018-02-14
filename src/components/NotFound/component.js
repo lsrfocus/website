@@ -14,11 +14,14 @@ function NotFound(props: Props) {
 
   return (
     <div className="NotFound">
-      <div className="subtitle">
-        The page at <code>{location.pathname}</code> doesn{'\''}t exist.
-      </div>
-      <div className="subtitle">
-        Go back <Link to="/">home</Link>?
+      <div className="title">Not found</div>
+      <div className="section">
+        <div className="subtitle">
+          The page at <code>{location.pathname}</code> doesn{'\''}t exist.
+        </div>
+        <div className="subtitle">
+          Go back <Link to="/">home</Link>?
+        </div>
       </div>
     </div>
   );

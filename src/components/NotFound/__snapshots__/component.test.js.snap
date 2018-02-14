@@ -5,26 +5,35 @@ exports[`renders 1`] = `
   className="NotFound"
 >
   <div
-    className="subtitle"
+    className="title"
   >
-    The page at 
-    <code>
-      /test
-    </code>
-     doesn
-    '
-    t exist.
+    Not found
   </div>
   <div
-    className="subtitle"
+    className="section"
   >
-    Go back 
-    <Link
-      to="/"
+    <div
+      className="subtitle"
     >
-      home
-    </Link>
-    ?
+      The page at 
+      <code>
+        /test
+      </code>
+       doesn
+      '
+      t exist.
+    </div>
+    <div
+      className="subtitle"
+    >
+      Go back 
+      <Link
+        to="/"
+      >
+        home
+      </Link>
+      ?
+    </div>
   </div>
 </div>
 `;

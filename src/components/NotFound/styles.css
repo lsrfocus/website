@@ -1,6 +1,18 @@
 .NotFound {
+  min-height: 30rem;
   margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
   font-weight: 500;
+}
+
+.NotFound .title {
+  margin: 1rem;
+  font-size: 5rem;
+}
+
+.NotFound .section {
+  margin: 1rem auto;
 }
 
 .NotFound .subtitle {
