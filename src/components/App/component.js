@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch } from 'react-static';
 import { Reboot } from 'material-ui';
 
 import routes from '../../routes';
