@@ -1,0 +1,18 @@
+.Testimonials .section {
+  margin: 2rem auto;
+}
+
+.Testimonials .quote {
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.Testimonials .attribution, .Testimonials .date {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.Testimonials .attribution {
+  margin-bottom: 0.4rem;
+}
