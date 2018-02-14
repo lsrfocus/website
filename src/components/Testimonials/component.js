@@ -3,6 +3,7 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
 
+import decorators from './vendor/decorators';
 import './styles.css';
 
 const testimonials = [
@@ -34,6 +35,7 @@ function Testimonials() {
       <div className="title">Testimonials</div>
       <Carousel
         wrapAround
+        decorators={decorators}
       >
         {testimonials.map((testimonial, index) => (
           // eslint-disable-next-line react/no-array-index-key
