@@ -8,34 +8,25 @@
 /* eslint-disable padded-blocks, react/prop-types, react/sort-comp, react/no-multi-comp */
 
 import React, { Component } from 'react';
+import { Icon, IconButton } from 'material-ui';
 
 const DefaultDecorators = [
   {
     component: class extends Component {
       render() {
         return (
-          <button
-            style={this.getButtonStyles(this.props.currentSlide === 0 && !this.props.wrapAround)}
+          <IconButton
+            disabled={this.props.currentSlide === 0 && !this.props.wrapAround}
             onClick={(e) => this.handleClick(e)}
+            aria-label="Previous testimonial"
           >
-            {'<'}
-          </button>
+            <Icon>keyboard_arrow_left</Icon>
+          </IconButton>
         );
       }
       handleClick(e) {
         e.preventDefault();
         this.props.previousSlide();
-      }
-      getButtonStyles(disabled) {
-        return {
-          border: 0,
-          background: 'rgba(0,0,0,0.4)',
-          color: 'white',
-          padding: 10,
-          outline: 0,
-          opacity: disabled ? 0.3 : 1,
-          cursor: 'pointer',
-        };
       }
     },
     position: 'CenterLeft',
@@ -44,31 +35,21 @@ const DefaultDecorators = [
     component: class extends Component {
       render() {
         return (
-          <button
-            style={this.getButtonStyles(
+          <IconButton
+            disabled={
               this.props.currentSlide + this.props.slidesToScroll
-              >= this.props.slideCount && !this.props.wrapAround,
-            )}
+              >= this.props.slideCount && !this.props.wrapAround
+            }
             onClick={(e) => this.handleClick(e)}
+            aria-label="Next testimonial"
           >
-            {'>'}
-          </button>
+            <Icon>keyboard_arrow_right</Icon>
+          </IconButton>
         );
       }
       handleClick(e) {
         e.preventDefault();
         this.props.nextSlide();
-      }
-      getButtonStyles(disabled) {
-        return {
-          border: 0,
-          background: 'rgba(0,0,0,0.4)',
-          color: 'white',
-          padding: 10,
-          outline: 0,
-          opacity: disabled ? 0.3 : 1,
-          cursor: 'pointer',
-        };
       }
     },
     position: 'CenterRight',
