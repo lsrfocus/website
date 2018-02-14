@@ -1,26 +1,3 @@
-.Services {
-  min-height: 30rem;
-  margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  font-weight: 500;
-}
-
-.Services .title {
-  margin: 1rem;
-  font-size: 5rem;
-}
-
-.Services .section {
-  margin: 1rem auto;
-}
-
-.Services .subtitle {
-  margin: 1rem auto;
-  font-size: 2.2rem;
-  max-width: 44rem;
-}
-
 .Services .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;

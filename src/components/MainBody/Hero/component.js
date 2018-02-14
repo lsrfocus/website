@@ -8,7 +8,7 @@ import './styles.css';
 
 function Hero() {
   return (
-    <div className="Hero">
+    <div className="Hero page">
       <div className="title">Lovable. Simple. Refined.</div>
       <div className="section">
         <div className="subtitle">

@@ -6,7 +6,7 @@ import './styles.css';
 
 function Testimonials() {
   return (
-    <div className="Testimonials">
+    <div className="Testimonials page">
       <div className="title">Testimonials</div>
     </div>
   );

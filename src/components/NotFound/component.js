@@ -13,7 +13,7 @@ function NotFound(props: Props) {
   const { location } = props;
 
   return (
-    <div className="NotFound">
+    <div className="NotFound page">
       <div className="title">Not found</div>
       <div className="section">
         <div className="subtitle">

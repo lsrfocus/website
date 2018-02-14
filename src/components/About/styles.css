@@ -1,27 +1,3 @@
-.About {
-  min-height: 30rem;
-  margin: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  font-weight: 500;
-}
-
-.About .title {
-  margin: 1rem;
-  font-size: 5rem;
-}
-
-.About .subtitle {
-  margin: 1rem auto;
-  font-size: 2.2rem;
-  max-width: 44rem;
-}
-
-.About .section {
-  margin: 1rem auto;
-  max-width: 55rem;
-}
-
 .About .section .header {
   margin-bottom: 0.5rem;
   font-size: 1.4rem;

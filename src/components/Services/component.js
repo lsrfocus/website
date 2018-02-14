@@ -6,7 +6,7 @@ import './styles.css';
 
 function Services() {
   return (
-    <div className="Services">
+    <div className="Services page">
       <div className="title">Services</div>
 
       <div className="section">

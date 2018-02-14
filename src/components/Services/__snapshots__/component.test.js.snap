@@ -2,7 +2,7 @@
 
 exports[`renders 1`] = `
 <div
-  className="Services"
+  className="Services page"
 >
   <div
     className="title"
