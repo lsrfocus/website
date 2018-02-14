@@ -13,13 +13,13 @@ function About() {
         <div className="subtitle">What does LSR mean?</div>
 
         <div className="header">L - Lovable</div>
-        <div className="description">People should love your stuff.</div>
+        <div className="description">People should love every iteration of your product.</div>
 
         <div className="header">S - Simple</div>
-        <div className="description">Your stuff should be understandable and straightforward.</div>
+        <div className="description">Your product should be understandable and straightforward.</div>
 
         <div className="header">R - Refined</div>
-        <div className="description">Your stuff should improve over time; it{"'"}s probably not perfect yet, and that{"'"}s okay.</div>
+        <div className="description">Your product should be released as soon as it{"'"}s lovable and simple -- then it should be refined based on feedback.</div>
       </div>
 
       <div className="section">
