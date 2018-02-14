@@ -19,13 +19,13 @@ function About() {
         <div className="description">Your stuff should be understandable and straightforward.</div>
 
         <div className="header">R - Refined</div>
-        <div className="description">Your stuff should improve over time; it{"'"}s probably not perfect yet (and that{"'"}s okay).</div>
+        <div className="description">Your stuff should improve over time; it{"'"}s probably not perfect yet, and that{"'"}s okay.</div>
       </div>
 
       <div className="section">
         <div className="subtitle">Why those three words?</div>
         <div className="description">
-          LSR comes from a combination of two powerful concepts in software development:{' '}
+          LSR comes from a combination of two important concepts in software development:{' '}
           <a href="http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">
             Minimal Lovable Product
           </a>
@@ -33,8 +33,9 @@ function About() {
           <a href="https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/">
             Build Measure Learn
           </a>
-          . I highly recommend reading through those links to learn more.
+          .
         </div>
+        <div className="description">I highly recommend reading through those links to learn more.</div>
       </div>
     </div>
   );

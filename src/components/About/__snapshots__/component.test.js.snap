@@ -47,9 +47,9 @@ exports[`renders 1`] = `
     >
       Your stuff should improve over time; it
       '
-      s probably not perfect yet (and that
+      s probably not perfect yet, and that
       '
-      s okay).
+      s okay.
     </div>
   </div>
   <div
@@ -63,7 +63,7 @@ exports[`renders 1`] = `
     <div
       className="description"
     >
-      LSR comes from a combination of two powerful concepts in software development:
+      LSR comes from a combination of two important concepts in software development:
        
       <a
         href="http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp"
@@ -76,7 +76,12 @@ exports[`renders 1`] = `
       >
         Build Measure Learn
       </a>
-      . I highly recommend reading through those links to learn more.
+      .
+    </div>
+    <div
+      className="description"
+    >
+      I highly recommend reading through those links to learn more.
     </div>
   </div>
 </div>
