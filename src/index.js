@@ -21,13 +21,11 @@ function renderRoot(component) {
 
 // Enable Hot Module Replacement (HMR).
 if (module.hot) {
-  module.hot.accept();
-
-  // TODO: This doesn't work.
-  // module.hot.accept('./components/App/component', () => {
-  //   // eslint-disable-next-line global-require
-  //   renderRoot(require('./components/App/component').default);
-  // });
+  module.hot.accept('./components/App/index', () => {
+    // eslint-disable-next-line global-require
+    const UpdatedApp = require('./components/App/index').default;
+    renderRoot(<UpdatedApp />);
+  });
 }
 
 renderRoot(<App />);
