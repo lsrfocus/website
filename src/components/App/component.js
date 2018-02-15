@@ -9,6 +9,7 @@ import routes from '../../routes';
 import NavBar from '../NavBar';
 import Footer from '../Footer';
 import NotFound from '../NotFound';
+import ScrollToTopOnNavigate from '../ScrollToTop';
 
 import './styles.css';
 
@@ -32,6 +33,7 @@ function App() {
     <Router>
       <div className="App">
         <Reboot />
+        <ScrollToTopOnNavigate />
         <NavBar />
         {renderRoutes()}
         <Footer />

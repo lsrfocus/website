@@ -7,4 +7,6 @@ module.exports = {
   NavLink: 'NavLink',
   Switch: 'Switch',
 
+  withRouter: (component) => component,
+
 };
