@@ -33,10 +33,13 @@ export default {
 
   /* eslint-disable react/prop-types */
   Document: ({ Html, Head, Body, children, siteData }) => (
-    <Html amp="" lang="en">
+    <Html
+      lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+    >
       <Head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>{siteData.title}</title>
 
@@ -60,27 +63,20 @@ export default {
         {/* http://google.github.io/material-design-icons/#icon-font-for-the-web */}
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-        {/* AMP */}
-        <script async src="https://cdn.ampproject.org/v0.js" />
-        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" />
-        <link rel="canonical" href="/" />
-        <style amp-boilerplate="">
-          {'body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}'}
-        </style>
-        <noscript>
-          <style amp-boilerplate="">
-            {'body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}'}
-          </style>
-        </noscript>
-      </Head>
-      <Body>
-        {children}
+        {/* Google Analytics - Global site tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110594588-3" />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={getGoogleAnalyticsScript()}
+        />
 
-        {/* Google Analytics */}
-        <amp-analytics type="googleanalytics">
-          <script type="application/json" dangerouslySetInnerHTML={getGoogleAnalyticsScript()} />
-        </amp-analytics>
-      </Body>
+        {/* Drip analytics */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={getDripScript()}
+        />
+      </Head>
+      <Body>{children}</Body>
     </Html>
   ),
   /* eslint-enable */
@@ -88,24 +84,31 @@ export default {
 };
 
 function getGoogleAnalyticsScript() {
-  return htmlify(`
-    {
-      "vars": {
-        "account": "UA-110594588-3"
-      },
-      "triggers": {
-        "trackPageview": {
-          "on": "visible",
-          "request": "pageview"
-        }
-      }
-    }
-  `);
+  return {
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110594588-3');
+    `,
+  };
 }
 
-/** Returns an object that can be passed to `dangerouslySetInnerHTML`. */
-function htmlify(html: string) {
+function getDripScript() {
   return {
-    __html: html,
+    __html: `
+      var _dcq = _dcq || [];
+      var _dcs = _dcs || {};
+      _dcs.account = '7185891';
+
+      (function() {
+        var dc = document.createElement('script');
+        dc.type = 'text/javascript'; dc.async = true;
+        dc.src = '//tag.getdrip.com/7185891.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(dc, s);
+      })();
+    `,
   };
 }

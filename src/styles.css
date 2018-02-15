@@ -1,7 +1,5 @@
 html {
-  /* Override AMP's style. */
-  height: 100%!important;
-
+  height: 100%;
   font-size: 62.5%;
 }
 
@@ -11,9 +9,6 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 64px 0 160px 0;
-
-  /* Undo AMP's style. */
-  height: unset!important;
 
   font-family: Roboto, sans-serif;
 
