@@ -33,13 +33,10 @@ export default {
 
   /* eslint-disable react/prop-types */
   Document: ({ Html, Head, Body, children, siteData }) => (
-    <Html
-      lang="en"
-      xmlns="http://www.w3.org/1999/xhtml"
-    >
+    <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
         <title>{siteData.title}</title>
 
@@ -84,31 +81,34 @@ export default {
 };
 
 function getGoogleAnalyticsScript() {
-  return {
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  return htmlify(`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-110594588-3');
-    `,
-  };
+    gtag('config', 'UA-110594588-3');
+  `);
 }
 
 function getDripScript() {
-  return {
-    __html: `
-      var _dcq = _dcq || [];
-      var _dcs = _dcs || {};
-      _dcs.account = '7185891';
+  return htmlify(`
+    var _dcq = _dcq || [];
+    var _dcs = _dcs || {};
+    _dcs.account = '7185891';
 
-      (function() {
-        var dc = document.createElement('script');
-        dc.type = 'text/javascript'; dc.async = true;
-        dc.src = '//tag.getdrip.com/7185891.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(dc, s);
-      })();
-    `,
+    (function() {
+      var dc = document.createElement('script');
+      dc.type = 'text/javascript'; dc.async = true;
+      dc.src = '//tag.getdrip.com/7185891.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(dc, s);
+    })();
+  `);
+}
+
+/** Returns an object that can be passed to `dangerouslySetInnerHTML`. */
+function htmlify(html: string) {
+  return {
+    __html: html,
   };
 }
