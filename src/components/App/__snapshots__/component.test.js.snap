@@ -6,31 +6,7 @@ exports[`renders 1`] = `
     className="App"
   >
     <NavBar />
-    <Switch>
-      <Route
-        component="MainBody"
-        exact={true}
-        path="/"
-      />
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/services"
-      />
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/about"
-      />
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/testimonials"
-      />
-      <Route
-        component={[Function]}
-      />
-    </Switch>
+    <Routes />
     <Footer />
   </div>
 </Router>

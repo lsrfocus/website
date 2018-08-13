@@ -11,23 +11,23 @@ export default {
   getRoutes: () => [
     {
       path: '/',
-      component: 'src/components/MainBody',
+      component: 'src/components/MainBody/component',
     },
     {
       path: '/services',
-      component: 'src/components/Services',
+      component: 'src/components/Services/component',
     },
     {
       path: '/about',
-      component: 'src/components/About',
+      component: 'src/components/About/component',
     },
     {
       path: '/testimonials',
-      component: 'src/components/Testimonials',
+      component: 'src/components/Testimonials/component',
     },
     {
       is404: true,
-      component: 'src/components/NotFound',
+      component: 'src/components/NotFound/component',
     },
   ],
 

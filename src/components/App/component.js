@@ -1,32 +1,18 @@
 // @flow
 
 import React from 'react';
-import { Router, Route, Switch } from 'react-static';
+import { Router } from 'react-static';
 import { Reboot } from 'material-ui';
 
-import routes from '../../routes';
+// This module is declared directly by react-static.
+// eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies, import/extensions, $FlowFixMe
+import Routes from 'react-static-routes';
 
 import NavBar from '../NavBar/component';
 import Footer from '../Footer/component';
-import NotFound from '../NotFound/component';
 import ScrollToTopOnNavigate from '../ScrollToTop/component';
 
 import './styles.css';
-
-/**
- * Render the first main route that matches the current path,
- * or NotFound if no match.
- */
-function renderRoutes() {
-  return (
-    <Switch>
-      {routes.map((route) => (
-        <Route key={route.path} exact path={route.path} component={route.component} />
-      ))}
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
 
 function App() {
   return (
@@ -35,7 +21,7 @@ function App() {
         <Reboot />
         <ScrollToTopOnNavigate />
         <NavBar />
-        {renderRoutes()}
+        <Routes />
         <Footer />
       </div>
     </Router>
