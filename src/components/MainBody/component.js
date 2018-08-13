@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import Hero from './Hero';
+import Hero from './Hero/component';
 
 import './styles.css';
 

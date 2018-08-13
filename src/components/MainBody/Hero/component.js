@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import NavButton from '../../NavButton/index';
+import NavButton from '../../NavButton/component';
 
 import './styles.css';
 

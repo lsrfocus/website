@@ -6,10 +6,10 @@ import { Reboot } from 'material-ui';
 
 import routes from '../../routes';
 
-import NavBar from '../NavBar';
-import Footer from '../Footer';
-import NotFound from '../NotFound';
-import ScrollToTopOnNavigate from '../ScrollToTop';
+import NavBar from '../NavBar/component';
+import Footer from '../Footer/component';
+import NotFound from '../NotFound/component';
+import ScrollToTopOnNavigate from '../ScrollToTop/component';
 
 import './styles.css';
 

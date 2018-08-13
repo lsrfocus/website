@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import SocialLink from '../SocialLink';
+import SocialLink from '../SocialLink/component';
 
 import './styles.css';
 import SOCIAL_LINKS from '../../socialLinks';

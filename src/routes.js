@@ -1,7 +1,7 @@
-import MainBody from './components/MainBody';
-import Services from './components/Services';
-import About from './components/About';
-import Testimonials from './components/Testimonials';
+import MainBody from './components/MainBody/component';
+import Services from './components/Services/component';
+import About from './components/About/component';
+import Testimonials from './components/Testimonials/component';
 
 const routes = [
   {
