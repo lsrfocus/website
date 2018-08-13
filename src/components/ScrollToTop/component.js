@@ -1,7 +1,7 @@
 // @flow
 
 import { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter } from 'react-static';
 
 type Props = {
   location: any,
