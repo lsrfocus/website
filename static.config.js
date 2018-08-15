@@ -1,4 +1,10 @@
 import React from 'react';
+import { MuiThemeProvider, createMuiTheme, createGenerateClassName } from 'material-ui';
+import { SheetsRegistry, JssProvider } from 'react-jss';
+
+import { string } from './src/constants';
+
+import { theme } from './src/components/App/theme';
 
 export default {
 
@@ -31,8 +37,31 @@ export default {
     },
   ],
 
+  /**
+   * Render and capture the MUI CSS.
+   * https://material-ui.com/guides/server-rendering
+   */
+  renderToHtml: (render, Component, renderMeta) => {
+    const sheetsRegistry = new SheetsRegistry();
+    const generateClassName = createGenerateClassName();
+    const muiTheme = createMuiTheme(theme);
+
+    const html = render(
+      <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
+        <MuiThemeProvider theme={muiTheme} sheetsManager={new Map()}>
+          <Component />
+        </MuiThemeProvider>
+      </JssProvider>,
+    );
+
+    // eslint-disable-next-line no-param-reassign
+    renderMeta.jssStyles = sheetsRegistry.toString();
+
+    return html;
+  },
+
   /* eslint-disable react/prop-types */
-  Document: ({ Html, Head, Body, children, siteData }) => (
+  Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
@@ -73,7 +102,12 @@ export default {
           dangerouslySetInnerHTML={getDripScript()}
         />
       </Head>
-      <Body>{children}</Body>
+
+      <Body>
+        {children}
+
+        <style id={string.JSS_SERVER_SIDE_ID}>{renderMeta.jssStyles}</style>
+      </Body>
     </Html>
   ),
   /* eslint-enable */
