@@ -104,6 +104,10 @@ export default {
       </Head>
 
       <Body>
+        <noscript>
+          You need to enable JavaScript to run this app.
+        </noscript>
+
         {children}
 
         <style id={string.JSS_SERVER_SIDE_ID}>{renderMeta.jssStyles}</style>
