@@ -16,7 +16,11 @@ function SocialLink(props: Props) {
 
   return (
     <li className="SocialLink">
-      <a href={url}>
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="social-icon black"
           src={icon}
