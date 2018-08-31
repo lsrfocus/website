@@ -17,6 +17,10 @@
     "jsx-a11y/anchor-is-valid": ["error", {
       "components": ["Link"],
       "specialLink": ["to"]
-    }]
+    }],
+
+    // We can deal with this if there are performance issues;
+    // it's easier to write and modify components when things are consistent.
+    "react/prefer-stateless-function": "off"
   }
 }
