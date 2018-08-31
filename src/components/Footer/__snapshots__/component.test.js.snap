@@ -2,7 +2,7 @@
 
 exports[`renders 1`] = `
 <div
-  className="Footer"
+  className="Footer-footer-1 Footer"
 >
   <ul
     className="social-links"

@@ -1,20 +1,35 @@
 // @flow
 
-import React from 'react';
+import * as R from 'ramda';
+import classNames from 'classnames';
+import React, { Component } from 'react';
+import { withStyles } from 'material-ui';
+
+import { size } from '../../constants';
 
 import SocialLink from '../SocialLink/component';
 
 import './styles.css';
 import SOCIAL_LINKS from '../../socialLinks';
 
-function Footer() {
-  return (
-    <div className="Footer">
-      {renderSocialLinks()}
-      <div>Full website coming soon.</div>
-      <div>&copy; 2018 LSR Software LLC</div>
-    </div>
-  );
+type Props = {
+  classes: Object,
+};
+
+class Footer extends Component<Props> {
+
+  render() {
+    const { classes } = this.props;
+
+    return (
+      <div className={classNames(classes.footer, 'Footer')}>
+        {renderSocialLinks()}
+        <div>Full website coming soon.</div>
+        <div>&copy; 2018 LSR Software LLC</div>
+      </div>
+    );
+  }
+
 }
 
 function renderSocialLinks() {
@@ -29,4 +44,12 @@ function renderSocialLinks() {
   );
 }
 
-export default Footer;
+const styles = () => ({
+  footer: {
+    height: size.FOOTER_HEIGHT,
+  },
+});
+
+export default R.compose(
+  withStyles(styles),
+)(Footer);
