@@ -1,5 +1,6 @@
 import React from 'react';
-import { MuiThemeProvider, createMuiTheme, createGenerateClassName } from 'material-ui';
+import { MuiThemeProvider, createMuiTheme } from 'material-ui';
+import { createGenerateClassName } from 'material-ui/styles';
 import { SheetsRegistry, JssProvider } from 'react-jss';
 
 import { string } from './src/constants';
