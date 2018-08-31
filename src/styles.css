@@ -6,11 +6,11 @@ html {
 }
 
 body {
-  /* Padding and positioning to account for the nav bar and footer. */
   position: relative;
+
   min-height: 100%;
   margin: 0;
-  padding: 64px 0 160px 0;
+  padding: 0;
 
   /* Re-enlarge fonts as fallback in case MUI doesn't load properly. */
   font-size: 1.4rem;

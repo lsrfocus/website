@@ -1,25 +1,29 @@
 // @flow
 
+import * as R from 'ramda';
+import classNames from 'classnames';
 import React, { Component } from 'react';
 import { Router } from 'react-static';
-import { Reboot, MuiThemeProvider, createMuiTheme } from 'material-ui';
+import { Reboot, MuiThemeProvider, createMuiTheme, withStyles } from 'material-ui';
 
 // This module is declared directly by react-static.
 // eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies, import/extensions, $FlowFixMe
 import Routes from 'react-static-routes';
 
-import { string } from '../../constants';
+import { string, size } from '../../constants';
+import { mapKeysDeep } from '../../utils/object-utils';
 
 import NavBar from '../NavBar/component';
 import Footer from '../Footer/component';
 import ScrollToTopOnNavigate from '../ScrollToTop/component';
 
-import { theme } from './theme';
+import { theme as appTheme } from './theme';
 import './styles.css';
 
-const muiTheme = createMuiTheme(theme);
+const muiTheme = createMuiTheme(appTheme);
 
 type Props = {
+  classes: Object,
 };
 
 class App extends Component<Props> {
@@ -36,10 +40,12 @@ class App extends Component<Props> {
   }
 
   render() {
+    const { classes } = this.props;
+
     return (
       <MuiThemeProvider theme={muiTheme}>
         <Router>
-          <div className="App">
+          <div className={classNames(classes.toolbarPadding, classes.footerPadding, 'App')}>
             <Reboot />
             <ScrollToTopOnNavigate />
             <NavBar />
@@ -53,4 +59,19 @@ class App extends Component<Props> {
 
 }
 
-export default App;
+const styles = (theme) => {
+  // Several CSS @media queries determine the toolbar height. Map these all to paddingTop.
+  const replaceWithPadding = (value, key) => (key === 'minHeight' ? 'paddingTop' : key);
+  const toolbarPadding = mapKeysDeep(theme.mixins.toolbar, replaceWithPadding);
+
+  return {
+    toolbarPadding,
+    footerPadding: {
+      paddingBottom: size.FOOTER_HEIGHT,
+    },
+  };
+};
+
+export default R.compose(
+  withStyles(styles),
+)(App);

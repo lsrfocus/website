@@ -3,7 +3,7 @@
 exports[`renders 1`] = `
 <Router>
   <div
-    className="App"
+    className="App-toolbarPadding-1 App-footerPadding-2 App"
   >
     <NavBar />
     <Routes />
