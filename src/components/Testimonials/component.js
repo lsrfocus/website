@@ -8,7 +8,7 @@ import './styles.css';
 
 const testimonials = [
   {
-    quote: 'Kevin is an anti-entropy machine. He solves problems creatively, with intelligence and and ease. A special type of person: Kevin is collaborative, patient, and fiercely productive.',
+    quote: 'Kevin is an anti-entropy machine. He solves problems creatively, with intelligence and ease. A special type of person: Kevin is collaborative, patient, and fiercely productive.',
     attribution: 'Oscar Fossum, WeCount',
     date: 'December 2017',
   },
@@ -18,7 +18,7 @@ const testimonials = [
     date: 'June 2016',
   },
   {
-    quote: 'Kevin was instrumental in establishing our project management systems, deciding on the best languages and softwares to use, and tactfully engaging with volunteer teammates to complete tasks.',
+    quote: 'Kevin was instrumental in establishing our project management systems, deciding on the best languages and software to use, and tactfully engaging with volunteer teammates to complete tasks.',
     attribution: 'Oscar Fossum, WeCount',
     date: 'December 2017',
   },

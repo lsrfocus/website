@@ -34,7 +34,7 @@ exports[`renders 1`] = `
       <div
         className="quote"
       >
-        "Kevin is an anti-entropy machine. He solves problems creatively, with intelligence and and ease. A special type of person: Kevin is collaborative, patient, and fiercely productive."
+        "Kevin is an anti-entropy machine. He solves problems creatively, with intelligence and ease. A special type of person: Kevin is collaborative, patient, and fiercely productive."
       </div>
       <div
         className="attribution"
@@ -72,7 +72,7 @@ exports[`renders 1`] = `
       <div
         className="quote"
       >
-        "Kevin was instrumental in establishing our project management systems, deciding on the best languages and softwares to use, and tactfully engaging with volunteer teammates to complete tasks."
+        "Kevin was instrumental in establishing our project management systems, deciding on the best languages and software to use, and tactfully engaging with volunteer teammates to complete tasks."
       </div>
       <div
         className="attribution"
