@@ -20,7 +20,7 @@ exports[`renders 1`] = `
       className="buttons"
     >
       <NavLink
-        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
         href={undefined}
         onBlur={[Function]}
@@ -38,7 +38,7 @@ exports[`renders 1`] = `
         to="/"
       >
         <span
-          className="MuiButton-label-39"
+          className="MuiButton-label-40"
         >
           <div
             className="link-text"
@@ -47,11 +47,11 @@ exports[`renders 1`] = `
           </div>
         </span>
         <span
-          className="MuiTouchRipple-root-55"
+          className="MuiTouchRipple-root-56"
         />
       </NavLink>
       <NavLink
-        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
         href={undefined}
         onBlur={[Function]}
@@ -69,7 +69,7 @@ exports[`renders 1`] = `
         to="/services"
       >
         <span
-          className="MuiButton-label-39"
+          className="MuiButton-label-40"
         >
           <div
             className="link-text"
@@ -78,11 +78,11 @@ exports[`renders 1`] = `
           </div>
         </span>
         <span
-          className="MuiTouchRipple-root-55"
+          className="MuiTouchRipple-root-56"
         />
       </NavLink>
       <NavLink
-        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
         href={undefined}
         onBlur={[Function]}
@@ -100,7 +100,7 @@ exports[`renders 1`] = `
         to="/about"
       >
         <span
-          className="MuiButton-label-39"
+          className="MuiButton-label-40"
         >
           <div
             className="link-text"
@@ -109,11 +109,11 @@ exports[`renders 1`] = `
           </div>
         </span>
         <span
-          className="MuiTouchRipple-root-55"
+          className="MuiTouchRipple-root-56"
         />
       </NavLink>
       <NavLink
-        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
         href={undefined}
         onBlur={[Function]}
@@ -131,7 +131,7 @@ exports[`renders 1`] = `
         to="/testimonials"
       >
         <span
-          className="MuiButton-label-39"
+          className="MuiButton-label-40"
         >
           <div
             className="link-text"
@@ -140,11 +140,11 @@ exports[`renders 1`] = `
           </div>
         </span>
         <span
-          className="MuiTouchRipple-root-55"
+          className="MuiTouchRipple-root-56"
         />
       </NavLink>
       <a
-        className="MuiButtonBase-root-53 MuiButton-root-38 NavButton "
+        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={undefined}
         href="mailto:kevin@lsrfocus.com"
         onBlur={[Function]}
@@ -161,7 +161,7 @@ exports[`renders 1`] = `
         to={undefined}
       >
         <span
-          className="MuiButton-label-39"
+          className="MuiButton-label-40"
         >
           <div
             className="link-text"
@@ -170,7 +170,7 @@ exports[`renders 1`] = `
           </div>
         </span>
         <span
-          className="MuiTouchRipple-root-55"
+          className="MuiTouchRipple-root-56"
         />
       </a>
     </div>

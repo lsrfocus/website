@@ -26,7 +26,7 @@ exports[`renders 1`] = `
     className="buttons"
   >
     <a
-      className="MuiButtonBase-root-16 MuiButton-root-1 NavButton bordered"
+      className="MuiButtonBase-root-17 MuiButton-root-2 NavButton-navButton-1 NavButton bordered"
       exact={undefined}
       href="mailto:kevin@lsrfocus.com"
       onBlur={[Function]}
@@ -43,7 +43,7 @@ exports[`renders 1`] = `
       to={undefined}
     >
       <span
-        className="MuiButton-label-2"
+        className="MuiButton-label-3"
       >
         <div
           className="link-text"
@@ -52,7 +52,7 @@ exports[`renders 1`] = `
         </div>
       </span>
       <span
-        className="MuiTouchRipple-root-18"
+        className="MuiTouchRipple-root-19"
       />
     </a>
   </div>

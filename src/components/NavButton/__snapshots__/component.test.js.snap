@@ -2,7 +2,7 @@
 
 exports[`renders with border 1`] = `
 <NavLink
-  className="MuiButtonBase-root-16 MuiButton-root-1 NavButton bordered"
+  className="MuiButtonBase-root-17 MuiButton-root-2 NavButton-navButton-1 NavButton bordered"
   exact={true}
   href={undefined}
   onBlur={[Function]}
@@ -20,7 +20,7 @@ exports[`renders with border 1`] = `
   to="/test"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiButton-label-3"
   >
     <div
       className="link-text"
@@ -29,14 +29,14 @@ exports[`renders with border 1`] = `
     </div>
   </span>
   <span
-    className="MuiTouchRipple-root-18"
+    className="MuiTouchRipple-root-19"
   />
 </NavLink>
 `;
 
 exports[`renders without border 1`] = `
 <NavLink
-  className="MuiButtonBase-root-16 MuiButton-root-1 NavButton "
+  className="MuiButtonBase-root-17 MuiButton-root-2 NavButton-navButton-1 NavButton"
   exact={true}
   href={undefined}
   onBlur={[Function]}
@@ -54,7 +54,7 @@ exports[`renders without border 1`] = `
   to="/test"
 >
   <span
-    className="MuiButton-label-2"
+    className="MuiButton-label-3"
   >
     <div
       className="link-text"
@@ -63,7 +63,7 @@ exports[`renders without border 1`] = `
     </div>
   </span>
   <span
-    className="MuiTouchRipple-root-18"
+    className="MuiTouchRipple-root-19"
   />
 </NavLink>
 `;
