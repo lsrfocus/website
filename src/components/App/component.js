@@ -4,7 +4,7 @@ import * as R from 'ramda';
 import classNames from 'classnames';
 import React, { Component } from 'react';
 import { Router } from 'react-static';
-import { Reboot, MuiThemeProvider, createMuiTheme, withStyles } from 'material-ui';
+import { createMuiTheme, withStyles, Reboot, MuiThemeProvider } from 'material-ui';
 
 // This module is declared directly by react-static.
 // eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies, import/extensions, $FlowFixMe

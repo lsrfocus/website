@@ -1,6 +1,6 @@
 // @flow
 
-import React from 'react';
+import React, { Component } from 'react';
 import Carousel from 'nuka-carousel';
 
 import decorators from './vendor/decorators';
@@ -29,25 +29,32 @@ const testimonials = [
   },
 ];
 
-function Testimonials() {
-  return (
-    <div className="Testimonials page">
-      <div className="title">Testimonials</div>
-      <Carousel
-        wrapAround
-        decorators={decorators}
-      >
-        {testimonials.map((testimonial, index) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <div className="section" key={index}>
-            <div className="quote">{`"${testimonial.quote}"`}</div>
-            <div className="attribution">{testimonial.attribution}</div>
-            <div className="date">{testimonial.date}</div>
-          </div>
-        ))}
-      </Carousel>
-    </div>
-  );
+type Props = {
+};
+
+class Testimonials extends Component<Props> {
+
+  render() {
+    return (
+      <div className="Testimonials page">
+        <div className="title">Testimonials</div>
+        <Carousel
+          wrapAround
+          decorators={decorators}
+        >
+          {testimonials.map((testimonial, index) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <div className="section" key={index}>
+              <div className="quote">{`"${testimonial.quote}"`}</div>
+              <div className="attribution">{testimonial.attribution}</div>
+              <div className="date">{testimonial.date}</div>
+            </div>
+          ))}
+        </Carousel>
+      </div>
+    );
+  }
+
 }
 
 export default Testimonials;

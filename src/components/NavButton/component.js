@@ -4,7 +4,7 @@ import * as R from 'ramda';
 import classNames from 'classnames';
 import React from 'react';
 import { NavLink } from 'react-static';
-import { Button, withStyles } from 'material-ui';
+import { withStyles, Button } from 'material-ui';
 import { styles as buttonStyles } from 'material-ui/Button/Button';
 
 import './styles.css';
