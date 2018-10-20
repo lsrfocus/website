@@ -1,6 +1,8 @@
 // @flow
 
+import * as R from 'ramda';
 import React, { Component } from 'react';
+import { withStyles } from 'material-ui';
 
 import Hero from './Hero/component';
 
@@ -21,4 +23,9 @@ class MainBody extends Component<Props> {
 
 }
 
-export default MainBody;
+const styles = () => ({
+});
+
+export default R.compose(
+  withStyles(styles),
+)(MainBody);

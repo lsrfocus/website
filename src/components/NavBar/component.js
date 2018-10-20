@@ -1,7 +1,8 @@
 // @flow
 
+import * as R from 'ramda';
 import React, { Component } from 'react';
-import { AppBar, Toolbar } from 'material-ui';
+import { withStyles, AppBar, Toolbar } from 'material-ui';
 
 import logo from '../../images/logo.svg';
 import routes from './routes';
@@ -35,4 +36,9 @@ class NavBar extends Component<Props> {
 
 }
 
-export default NavBar;
+const styles = () => ({
+});
+
+export default R.compose(
+  withStyles(styles),
+)(NavBar);

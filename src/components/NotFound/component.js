@@ -1,6 +1,8 @@
 // @flow
 
+import * as R from 'ramda';
 import React, { Component } from 'react';
+import { withStyles } from 'material-ui';
 import { Link } from 'react-static';
 
 import './styles.css';
@@ -30,4 +32,9 @@ class NotFound extends Component<Props> {
 
 }
 
-export default NotFound;
+const styles = () => ({
+});
+
+export default R.compose(
+  withStyles(styles),
+)(NotFound);

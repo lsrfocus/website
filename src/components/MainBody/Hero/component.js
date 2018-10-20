@@ -1,6 +1,8 @@
 // @flow
 
+import * as R from 'ramda';
 import React, { Component } from 'react';
+import { withStyles } from 'material-ui';
 
 import NavButton from '../../NavButton/component';
 
@@ -29,4 +31,9 @@ class Hero extends Component<Props> {
 
 }
 
-export default Hero;
+const styles = () => ({
+});
+
+export default R.compose(
+  withStyles(styles),
+)(Hero);

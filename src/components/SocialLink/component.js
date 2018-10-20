@@ -1,6 +1,8 @@
 // @flow
 
+import * as R from 'ramda';
 import React from 'react';
+import { withStyles } from 'material-ui';
 
 import './styles.css';
 
@@ -36,4 +38,9 @@ function SocialLink(props: Props) {
   );
 }
 
-export default SocialLink;
+const styles = () => ({
+});
+
+export default R.compose(
+  withStyles(styles),
+)(SocialLink);

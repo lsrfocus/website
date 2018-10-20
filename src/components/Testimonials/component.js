@@ -1,6 +1,8 @@
 // @flow
 
+import * as R from 'ramda';
 import React, { Component } from 'react';
+import { withStyles } from 'material-ui';
 import Carousel from 'nuka-carousel';
 
 import decorators from './vendor/decorators';
@@ -57,4 +59,9 @@ class Testimonials extends Component<Props> {
 
 }
 
-export default Testimonials;
+const styles = () => ({
+});
+
+export default R.compose(
+  withStyles(styles),
+)(Testimonials);
