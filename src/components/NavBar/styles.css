@@ -1,6 +1,4 @@
 .NavBar {
-  /* Default is 64. Specified here to be explicit. */
-  height: 64px;
 }
 
 .NavBar .buttons {
