@@ -10,12 +10,7 @@ script:
  - yarn run flow
  - yarn test
 
-before_deploy:
- - yarn run build
-
 deploy:
-  provider: firebase
+  provider: script
   skip_cleanup: true
-  token:
-    secure: F016wGrLFq0F7JI4Y8vvB8dc6dUrYvjv6FJi9KnYsRkFwoAtbifSftimwrfhZKmZK3rJN8FxEuGUpCv7vmOjr4e8nPm7tijgjifgfIdgFHOBNwc1UzLAOwZtCSxD8bu7zCzmVzfIUw9vWVSMcI5r7wxKf3HyWtyt7LbOLqWZMW+v0rG1XJdNjxWVrD3PbvlrPh2oNDwd7FERwgMBHpadZJOGj8owUhxpyEADnegMqm1H3Nm26Wr+aZbpwRLKfgk5o4E0nktMeA1jiNf4ophfB/NdThPYRVkV654lLCGaoypPb4btoeHydGUeo87SYzWo+3LSp5L4137JHyaP2M/opSX0OoN+xQsJnD299Oh6RaD8LODo/iRYMSHIySUh3XuUo15k2GZd3+R8jklM8zt4rF6VaBPGSJ4x9DiED1IvHJKkgyZaUGMwjRTFmQqJzO4HgQzzjUfTidcoqI2nlh9F6BcT5PtbjJT/vR1BVk+IrVyKzX0S07lsPDI+4+YWCZFN8t1Wu3A1g0aWa+TySYvE2+g6wXN1DI/AKtbWSxb0TYGQXCVxGb6LPJ+TonnOBgFp07H2K7uuAhXkAMBtN+OijN6ueE1RRAm4F9cNl6CQ1Xmc1PPM9udNtBUr5fzMyYxK2JsbLIgwJ6RZqFie4nEAkUcECbfa8iOmLjhAMufyULw=
-  message: "Deployed by Travis CI."
+  script: yarn run deploy --token "$FIREBASE_TOKEN" -m 'Deployed by Travis CI.'
