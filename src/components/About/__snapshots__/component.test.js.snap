@@ -45,9 +45,7 @@ exports[`renders 1`] = `
     <div
       className="description"
     >
-      Your product should be released as soon as it
-      '
-      s lovable and simple -- then it should be refined based on feedback.
+      Your product should be released as soon as it's lovable and simple -- then it should be refined based on feedback.
     </div>
   </div>
   <div
@@ -61,8 +59,7 @@ exports[`renders 1`] = `
     <div
       className="description"
     >
-      LSR comes from a combination of two important concepts in software development:
-       
+      LSR comes from a combination of two important concepts in software development: 
       <a
         href="http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp"
       >

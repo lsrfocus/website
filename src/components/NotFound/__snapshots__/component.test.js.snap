@@ -19,9 +19,7 @@ exports[`renders 1`] = `
       <code>
         /test
       </code>
-       doesn
-      '
-      t exist.
+       doesn't exist.
     </div>
     <div
       className="subtitle"

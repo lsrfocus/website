@@ -19,7 +19,9 @@ class Hero extends Component<Props> {
         <div className="title">Lovable. Simple. Refined.</div>
         <div className="section">
           <div className="subtitle">
-            I listen to users and build the <i>minimal&nbsp;lovable&nbsp;solution</i> to meet their needs.
+            {'I listen to users and build the '}
+            <i>minimal&nbsp;lovable&nbsp;solution</i>
+            {' to meet their needs.'}
           </div>
         </div>
         <div className="buttons">

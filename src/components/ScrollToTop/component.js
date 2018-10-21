@@ -15,7 +15,9 @@ type Props = {
 class ScrollToTop extends Component<Props> {
 
   componentDidUpdate(prevProps) {
-    if (this.props.location !== prevProps.location) {
+    const { location } = this.props;
+
+    if (location !== prevProps.location) {
       window.scrollTo(0, 0);
     }
   }

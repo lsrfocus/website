@@ -20,10 +20,14 @@ class NotFound extends Component<Props> {
         <div className="title">Not found</div>
         <div className="section">
           <div className="subtitle">
-            The page at <code>{location.pathname}</code> doesn{'\''}t exist.
+            {'The page at '}
+            <code>{location.pathname}</code>
+            {' doesn\'t exist.'}
           </div>
           <div className="subtitle">
-            Go back <Link to="/">home</Link>?
+            {'Go back '}
+            <Link to="/">home</Link>
+            {'?'}
           </div>
         </div>
       </div>
