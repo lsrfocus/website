@@ -1,4 +1,7 @@
 build/
 dist/
+tmp/
+
 flow-typed/
-src/vendor/
+
+vendor/
