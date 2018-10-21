@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import { withStyles } from 'material-ui';
 import Carousel from 'nuka-carousel';
 
-import decorators from './vendor/decorators';
+import decorators from './vendor/controls';
 import './styles.css';
 
 const testimonials = [
