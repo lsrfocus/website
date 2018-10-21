@@ -4,7 +4,6 @@ exports[`renders with border 1`] = `
 <NavLink
   className="MuiButtonBase-root-17 MuiButton-root-2 NavButton-navButton-1 NavButton bordered"
   exact={true}
-  href={undefined}
   onBlur={[Function]}
   onFocus={[Function]}
   onKeyDown={[Function]}
@@ -38,7 +37,6 @@ exports[`renders without border 1`] = `
 <NavLink
   className="MuiButtonBase-root-17 MuiButton-root-2 NavButton-navButton-1 NavButton"
   exact={true}
-  href={undefined}
   onBlur={[Function]}
   onFocus={[Function]}
   onKeyDown={[Function]}

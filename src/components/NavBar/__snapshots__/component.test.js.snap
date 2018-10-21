@@ -22,7 +22,6 @@ exports[`renders 1`] = `
       <NavLink
         className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
-        href={undefined}
         onBlur={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -53,7 +52,6 @@ exports[`renders 1`] = `
       <NavLink
         className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
-        href={undefined}
         onBlur={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -84,7 +82,6 @@ exports[`renders 1`] = `
       <NavLink
         className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
-        href={undefined}
         onBlur={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -115,7 +112,6 @@ exports[`renders 1`] = `
       <NavLink
         className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
         exact={true}
-        href={undefined}
         onBlur={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -145,7 +141,6 @@ exports[`renders 1`] = `
       </NavLink>
       <a
         className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
-        exact={undefined}
         href="mailto:kevin@lsrfocus.com"
         onBlur={[Function]}
         onFocus={[Function]}
@@ -158,7 +153,6 @@ exports[`renders 1`] = `
         onTouchMove={[Function]}
         onTouchStart={[Function]}
         tabIndex={0}
-        to={undefined}
       >
         <span
           className="MuiButton-label-40"

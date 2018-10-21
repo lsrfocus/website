@@ -27,7 +27,6 @@ exports[`renders 1`] = `
   >
     <a
       className="MuiButtonBase-root-17 MuiButton-root-2 NavButton-navButton-1 NavButton bordered"
-      exact={undefined}
       href="mailto:kevin@lsrfocus.com"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -40,7 +39,6 @@ exports[`renders 1`] = `
       onTouchMove={[Function]}
       onTouchStart={[Function]}
       tabIndex={0}
-      to={undefined}
     >
       <span
         className="MuiButton-label-3"
