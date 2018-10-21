@@ -5,7 +5,8 @@ import React, { Component } from 'react';
 import { withStyles } from 'material-ui';
 import Carousel from 'nuka-carousel';
 
-import decorators from './vendor/controls';
+import { PagingDots, PreviousButton, NextButton } from './vendor/controls';
+
 import './styles.css';
 
 const testimonials = [
@@ -42,7 +43,9 @@ class Testimonials extends Component<Props> {
         <div className="title">Testimonials</div>
         <Carousel
           wrapAround
-          decorators={decorators}
+          renderCenterLeftControls={(props) => <PreviousButton {...props} />}
+          renderCenterRightControls={(props) => <NextButton {...props} />}
+          renderBottomCenterControls={(props) => <PagingDots {...props} />}
         >
           {testimonials.map((testimonial, index) => (
             // eslint-disable-next-line react/no-array-index-key

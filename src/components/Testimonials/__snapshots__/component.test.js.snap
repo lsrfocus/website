@@ -10,22 +10,9 @@ exports[`renders 1`] = `
     Testimonials
   </div>
   <Carousel
-    decorators={
-      Array [
-        Object {
-          "component": [Function],
-          "position": "CenterLeft",
-        },
-        Object {
-          "component": [Function],
-          "position": "CenterRight",
-        },
-        Object {
-          "component": [Function],
-          "position": "BottomCenter",
-        },
-      ]
-    }
+    renderBottomCenterControls={[Function]}
+    renderCenterLeftControls={[Function]}
+    renderCenterRightControls={[Function]}
     wrapAround={true}
   >
     <div
