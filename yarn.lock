@@ -12383,10 +12383,9 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-static@5.9.12:
+react-static@cooperka/react-static#2018-10-22-uglifyPlugin:
   version "5.9.12"
-  resolved "https://registry.yarnpkg.com/react-static/-/react-static-5.9.12.tgz#4dd5e24b9fa53531c2ccbe966c4223f8b6d0d1bc"
-  integrity sha512-JoK39FMWkF8rtA80R5hx3a50r1WNOIaOoabJgrW4Xs+sCyuldhytiS2SGpk3Q0xrfQrRb4hDrqKBULneNDRThA==
+  resolved "https://codeload.github.com/cooperka/react-static/tar.gz/99aaa07be9d9e73afef3931d8e9d2101799e6626"
   dependencies:
     "@types/react" "^16.0.18"
     "@types/react-helmet" "^5.0.3"
@@ -12449,6 +12448,7 @@ react-static@5.9.12:
     socket.io-client "^2.1.0"
     style-loader "^0.19.0"
     swimmer "^1.3.1"
+    uglifyjs-webpack-plugin "^1.3.0"
     update-notifier "^2.4.0"
     url-loader "^0.6.1"
     webpack "^3.6.0"
@@ -14578,7 +14578,7 @@ uglifyjs-webpack-plugin@^0.4.6:
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
 
-uglifyjs-webpack-plugin@^1.2.4:
+uglifyjs-webpack-plugin@^1.2.4, uglifyjs-webpack-plugin@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.3.0.tgz#75f548160858163a08643e086d5fefe18a5d67de"
   integrity sha512-ovHIch0AMlxjD/97j9AYovZxG5wnHOPkL7T1GKochBADp/Zwc44pEWNqpKl1Loupp1WhFg7SlYmHZRUfdAacgw==
