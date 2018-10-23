@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "start": "react-static start",
+    "checkAll": "yarn run lint --fix && yarn run flow && yarn run test --updateSnapshot --watchAll=0",
+    "lint": "eslint . --ext .js",
+    "flow": "flow",
+    "test": "react-scripts test",
     "clean": "rm -rf build dist",
     "build": "yarn run clean && react-static build",
     "serve": "serve dist -p 3000",
     "deploy": "yarn run build && firebase deploy",
-    "test": "react-scripts test --env=jsdom",
-    "lint": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject"
   },
   "dependencies": {
