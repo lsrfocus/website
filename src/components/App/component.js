@@ -3,8 +3,9 @@
 import * as R from 'ramda';
 import classNames from 'classnames';
 import React, { Component } from 'react';
-import { Router } from 'react-static';
+import { withRouter, Router } from 'react-static';
 import { createMuiTheme, withStyles, Reboot, MuiThemeProvider } from 'material-ui';
+import { ScrollToTopOnNavigate as ScrollToTopWithoutRouter } from 'lsr-lib';
 
 // This module is declared directly by react-static.
 // eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies, import/extensions, $FlowFixMe
@@ -15,12 +16,13 @@ import { mapKeysDeep } from '../../utils/object-utils';
 
 import NavBar from '../NavBar/component';
 import Footer from '../Footer/component';
-import ScrollToTopOnNavigate from '../ScrollToTop/component';
 
 import { theme as appTheme } from './theme';
 import './styles.css';
 
 const muiTheme = createMuiTheme(appTheme);
+
+const ScrollToTopOnNavigate = withRouter(ScrollToTopWithoutRouter);
 
 type Props = {
   classes: Object,

@@ -9412,6 +9412,13 @@ lru-queue@0.1:
   dependencies:
     es5-ext "~0.10.2"
 
+lsr-lib@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/lsr-lib/-/lsr-lib-0.1.0.tgz#8a698fcf584aa54d4c4b3ae7326da706983c4bf1"
+  integrity sha512-DeKWgrOBMkHxwupXo/gVsaPGcENXn6oI1BWvdRGay0TJfJwMHnEPT6fEStOXB5OoR3tbjMk2OWaO5afFr+nscw==
+  dependencies:
+    react-scroll-on-navigate "^0.1.2"
+
 macos-release@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-1.1.0.tgz#831945e29365b470aa8724b0ab36c8f8959d10fb"
@@ -12364,6 +12371,11 @@ react-scripts@2.0.5:
     workbox-webpack-plugin "3.6.2"
   optionalDependencies:
     fsevents "1.2.4"
+
+react-scroll-on-navigate@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-on-navigate/-/react-scroll-on-navigate-0.1.2.tgz#c280a9899114a5046986b03e15bdac26941164c6"
+  integrity sha512-cffN0XAFXdWNxqe4pIBzA0RKLMiNzzj0BrBoBz+8edqdkuAAsAQrHfAkanEHeNOLkAhvf3YY/9EZ55Ar8wgR+A==
 
 react-scrollbar-size@^2.0.2:
   version "2.1.0"
