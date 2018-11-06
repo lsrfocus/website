@@ -33,12 +33,12 @@ exports[`renders 1`] = `
       <div
         className="grid-item"
       >
-        User testing
+        Prototypes
       </div>
       <div
         className="grid-item"
       >
-        Project planning
+        User testing
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ exports[`renders 1`] = `
     <div
       className="subtitle"
     >
-      Small business development
+      Business development
     </div>
     <div
       className="grid-container"
@@ -56,12 +56,17 @@ exports[`renders 1`] = `
       <div
         className="grid-item"
       >
-        Strategic planning
+        Strategic direction (“what”)
       </div>
       <div
         className="grid-item"
       >
-        Team building
+        Strategic execution (“how”)
+      </div>
+      <div
+        className="grid-item"
+      >
+        Team culture
       </div>
     </div>
   </div>
