@@ -45,7 +45,7 @@ class About extends Component<Props> {
             <a href="http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">
               Minimal Lovable Product
             </a>
-            {' + '}
+            {' and '}
             <a href="https://steveblank.com/2015/05/06/build-measure-learn-throw-things-against-the-wall-and-see-if-they-work/">
               Build Measure Learn
             </a>
