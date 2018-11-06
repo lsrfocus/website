@@ -17,23 +17,23 @@ class About extends Component<Props> {
         <div className="title">About</div>
 
         <div className="section">
-          <div className="subtitle">L - Lovable</div>
+          <div className="subtitle">L – Lovable</div>
           <div className="description">
             {'People should love every iteration of your product.'}
           </div>
         </div>
 
         <div className="section">
-          <div className="subtitle">S - Simple</div>
+          <div className="subtitle">S – Simple</div>
           <div className="description">
             {'Your product should be understandable and straightforward.'}
           </div>
         </div>
 
         <div className="section">
-          <div className="subtitle">R - Refined</div>
+          <div className="subtitle">R – Refined</div>
           <div className="description">
-            {'Your product should be released as soon as it\'s lovable and simple -- then it'
+            {'Your product should be released as soon as it\'s lovable and simple – then it'
             + ' should be refined based on feedback.'}
           </div>
         </div>

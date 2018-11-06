@@ -15,7 +15,7 @@ exports[`renders 1`] = `
     <div
       className="subtitle"
     >
-      L - Lovable
+      L – Lovable
     </div>
     <div
       className="description"
@@ -29,7 +29,7 @@ exports[`renders 1`] = `
     <div
       className="subtitle"
     >
-      S - Simple
+      S – Simple
     </div>
     <div
       className="description"
@@ -43,12 +43,12 @@ exports[`renders 1`] = `
     <div
       className="subtitle"
     >
-      R - Refined
+      R – Refined
     </div>
     <div
       className="description"
     >
-      Your product should be released as soon as it's lovable and simple -- then it should be refined based on feedback.
+      Your product should be released as soon as it's lovable and simple – then it should be refined based on feedback.
     </div>
   </div>
   <div
