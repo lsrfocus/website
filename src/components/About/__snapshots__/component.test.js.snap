@@ -15,11 +15,6 @@ exports[`renders 1`] = `
     <div
       className="subtitle"
     >
-      What does LSR mean?
-    </div>
-    <div
-      className="header"
-    >
       L - Lovable
     </div>
     <div
@@ -27,8 +22,12 @@ exports[`renders 1`] = `
     >
       People should love every iteration of your product.
     </div>
+  </div>
+  <div
+    className="section"
+  >
     <div
-      className="header"
+      className="subtitle"
     >
       S - Simple
     </div>
@@ -37,8 +36,12 @@ exports[`renders 1`] = `
     >
       Your product should be understandable and straightforward.
     </div>
+  </div>
+  <div
+    className="section"
+  >
     <div
-      className="header"
+      className="subtitle"
     >
       R - Refined
     </div>
