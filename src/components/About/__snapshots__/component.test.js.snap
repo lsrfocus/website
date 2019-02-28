@@ -16,7 +16,7 @@ exports[`renders 1`] = `
       className="subtitle"
     >
       <Link
-        to="/services"
+        to="/about/services"
       >
         Services
       </Link>
@@ -34,7 +34,7 @@ exports[`renders 1`] = `
       className="subtitle"
     >
       <Link
-        to="/about-lsr"
+        to="/about/lsr"
       >
         About LSR
       </Link>
@@ -52,7 +52,7 @@ exports[`renders 1`] = `
       className="subtitle"
     >
       <Link
-        to="/about-kevin"
+        to="/about/kevin"
       >
         About Kevin
       </Link>

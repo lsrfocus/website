@@ -19,7 +19,7 @@ class About extends Component<Props> {
 
         <div className="section">
           <div className="subtitle">
-            <Link to="/services">Services</Link>
+            <Link to="/about/services">Services</Link>
           </div>
           <div className="description">
             {'What I can do for you.'}
@@ -28,7 +28,7 @@ class About extends Component<Props> {
 
         <div className="section">
           <div className="subtitle">
-            <Link to="/about-lsr">About LSR</Link>
+            <Link to="/about/lsr">About LSR</Link>
           </div>
           <div className="description">
             {'What my company represents.'}
@@ -37,7 +37,7 @@ class About extends Component<Props> {
 
         <div className="section">
           <div className="subtitle">
-            <Link to="/about-kevin">About Kevin</Link>
+            <Link to="/about/kevin">About Kevin</Link>
           </div>
           <div className="description">
             {'Who I am.'}

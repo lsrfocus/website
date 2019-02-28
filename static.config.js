@@ -21,7 +21,12 @@ export default {
       component: 'src/components/MainBody/component',
     },
     {
+      // Backwards-compatibility.
       path: '/services',
+      component: 'src/components/Services/component',
+    },
+    {
+      path: '/about/services',
       component: 'src/components/Services/component',
     },
     {
@@ -29,11 +34,11 @@ export default {
       component: 'src/components/About/component',
     },
     {
-      path: '/about-lsr',
+      path: '/about/lsr',
       component: 'src/components/AboutCompany/component',
     },
     {
-      path: '/about-kevin',
+      path: '/about/kevin',
       component: 'src/components/AboutMe/component',
     },
     {
