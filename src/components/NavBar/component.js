@@ -27,7 +27,7 @@ class NavBar extends Component<Props> {
             {routes.map((route) => (
               <NavButton key={route.path} linkTo={route.path}>{route.displayName}</NavButton>
             ))}
-            <NavButton externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
+            <NavButton externalLinkTo="mailto:kevin@lsrfocus.com">Contact me</NavButton>
           </div>
         </Toolbar>
       </AppBar>

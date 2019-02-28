@@ -25,7 +25,7 @@ class Hero extends Component<Props> {
           </div>
         </div>
         <div className="buttons">
-          <NavButton bordered externalLinkTo="mailto:kevin@lsrfocus.com">Contact</NavButton>
+          <NavButton bordered externalLinkTo="mailto:kevin@lsrfocus.com">Contact me</NavButton>
         </div>
       </div>
     );

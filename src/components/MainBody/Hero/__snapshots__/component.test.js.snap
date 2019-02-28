@@ -46,7 +46,7 @@ exports[`renders 1`] = `
         <div
           className="link-text"
         >
-          Contact
+          Contact me
         </div>
       </span>
       <span
