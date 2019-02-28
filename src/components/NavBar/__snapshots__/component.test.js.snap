@@ -64,7 +64,7 @@ exports[`renders 1`] = `
         onTouchStart={[Function]}
         role="button"
         tabIndex={0}
-        to="/services"
+        to="/about"
       >
         <span
           className="MuiButton-label-40"
@@ -72,67 +72,7 @@ exports[`renders 1`] = `
           <div
             className="link-text"
           >
-            Services
-          </div>
-        </span>
-        <span
-          className="MuiTouchRipple-root-56"
-        />
-      </NavLink>
-      <NavLink
-        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
-        exact={true}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        role="button"
-        tabIndex={0}
-        to="/about-lsr"
-      >
-        <span
-          className="MuiButton-label-40"
-        >
-          <div
-            className="link-text"
-          >
-            About LSR
-          </div>
-        </span>
-        <span
-          className="MuiTouchRipple-root-56"
-        />
-      </NavLink>
-      <NavLink
-        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
-        exact={true}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={[Function]}
-        onMouseUp={[Function]}
-        onTouchEnd={[Function]}
-        onTouchMove={[Function]}
-        onTouchStart={[Function]}
-        role="button"
-        tabIndex={0}
-        to="/about-kevin"
-      >
-        <span
-          className="MuiButton-label-40"
-        >
-          <div
-            className="link-text"
-          >
-            About Kevin
+            About
           </div>
         </span>
         <span
@@ -190,7 +130,7 @@ exports[`renders 1`] = `
           <div
             className="link-text"
           >
-            Contact
+            Contact me
           </div>
         </span>
         <span

@@ -4,16 +4,8 @@ const routes = [
     displayName: 'Home',
   },
   {
-    path: '/services',
-    displayName: 'Services',
-  },
-  {
-    path: '/about-lsr',
-    displayName: 'About LSR',
-  },
-  {
-    path: '/about-kevin',
-    displayName: 'About Kevin',
+    path: '/about',
+    displayName: 'About',
   },
   {
     path: '/testimonials',

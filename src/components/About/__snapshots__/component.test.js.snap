@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="About page"
+>
+  <div
+    className="title"
+  >
+    About
+  </div>
+  <div
+    className="section"
+  >
+    <div
+      className="subtitle"
+    >
+      <Link
+        to="/services"
+      >
+        Services
+      </Link>
+    </div>
+    <div
+      className="description"
+    >
+      What I can do for you.
+    </div>
+  </div>
+  <div
+    className="section"
+  >
+    <div
+      className="subtitle"
+    >
+      <Link
+        to="/about-lsr"
+      >
+        About LSR
+      </Link>
+    </div>
+    <div
+      className="description"
+    >
+      What my company represents.
+    </div>
+  </div>
+  <div
+    className="section"
+  >
+    <div
+      className="subtitle"
+    >
+      <Link
+        to="/about-kevin"
+      >
+        About Kevin
+      </Link>
+    </div>
+    <div
+      className="description"
+    >
+      Who I am.
+    </div>
+  </div>
+</div>
+`;
