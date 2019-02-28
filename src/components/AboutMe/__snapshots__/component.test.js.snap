@@ -9,13 +9,18 @@ exports[`renders 1`] = `
   >
     About Kevin
   </div>
+  <img
+    alt="Kevin at his laptop with Ziri"
+    className="AboutMe-avatar-1"
+    src="kevin-ziri-min.jpg"
+  />
   <div
     className="section"
   >
     <div
       className="description"
     >
-      Kevin is the founder and owner of LSR Software. He lives in Ann Arbor with his partner Nina and two cats Midna and Ziri.
+      Kevin is the founder and owner of LSR Software. He lives in Ann Arbor with his partner Nina and two cats Midna and Ziri (pictured).
     </div>
     <div
       className="description"
