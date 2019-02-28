@@ -34,6 +34,10 @@ export default {
       component: 'src/components/AboutCompany/component',
     },
     {
+      path: '/about-kevin',
+      component: 'src/components/AboutMe/component',
+    },
+    {
       path: '/testimonials',
       component: 'src/components/Testimonials/component',
     },

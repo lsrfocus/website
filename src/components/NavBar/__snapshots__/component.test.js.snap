@@ -124,6 +124,36 @@ exports[`renders 1`] = `
         onTouchStart={[Function]}
         role="button"
         tabIndex={0}
+        to="/about-kevin"
+      >
+        <span
+          className="MuiButton-label-40"
+        >
+          <div
+            className="link-text"
+          >
+            About Kevin
+          </div>
+        </span>
+        <span
+          className="MuiTouchRipple-root-56"
+        />
+      </NavLink>
+      <NavLink
+        className="MuiButtonBase-root-54 MuiButton-root-39 NavButton-navButton-38 NavButton"
+        exact={true}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
         to="/testimonials"
       >
         <span

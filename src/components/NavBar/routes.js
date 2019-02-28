@@ -12,6 +12,10 @@ const routes = [
     displayName: 'About LSR',
   },
   {
+    path: '/about-kevin',
+    displayName: 'About Kevin',
+  },
+  {
     path: '/testimonials',
     displayName: 'Testimonials',
   },
