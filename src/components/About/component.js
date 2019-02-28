@@ -19,22 +19,28 @@ class About extends Component<Props> {
         <div className="section">
           <div className="subtitle">L – Lovable</div>
           <div className="description">
-            {'People should love every iteration of your product.'}
+            {'Your users should enjoy using your product.'}
           </div>
         </div>
 
         <div className="section">
           <div className="subtitle">S – Simple</div>
           <div className="description">
-            {'Your product should be understandable and straightforward.'}
+            {'Your users should find your product straightforward and easy to use.'}
           </div>
         </div>
 
         <div className="section">
           <div className="subtitle">R – Refined</div>
           <div className="description">
-            {'Your product should be released as soon as it\'s lovable and simple – then it'
-            + ' should be refined based on feedback.'}
+            {'Your users should be able to tell you what they want so that you can refine your product. Your product should be released as soon as it\'s lovable and simple, then iteratively improved.'}
+          </div>
+        </div>
+
+        <div className="section">
+          <div className="subtitle">How do I measure these things?</div>
+          <div className="description">
+            {'Note how each of the above sections starts with "Your users". They are the ones who can tell you if your product meets these criteria.'}
           </div>
         </div>
 
