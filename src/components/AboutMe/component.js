@@ -46,7 +46,7 @@ const styles = () => ({
     marginLeft: 'auto',
     marginRight: 'auto',
     marginBottom: 4,
-    width: 400,
+    height: 520,
   },
 });
 
