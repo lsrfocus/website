@@ -3,9 +3,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import About from './component';
+import Component from './component';
 
 it('renders', () => {
-  const tree = renderer.create(<About />);
+  const tree = renderer.create(<Component />);
   expect(tree.toJSON()).toMatchSnapshot();
 });

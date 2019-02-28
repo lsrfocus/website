@@ -9,12 +9,12 @@ import './styles.css';
 type Props = {
 };
 
-class About extends Component<Props> {
+class AboutCompany extends Component<Props> {
 
   render() {
     return (
-      <div className="About page">
-        <div className="title">About</div>
+      <div className="AboutCompany page">
+        <div className="title">About LSR</div>
 
         <div className="section">
           <div className="subtitle">L – Lovable</div>
@@ -72,4 +72,4 @@ const styles = () => ({
 
 export default R.compose(
   withStyles(styles),
-)(About);
+)(AboutCompany);

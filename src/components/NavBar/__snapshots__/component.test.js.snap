@@ -94,7 +94,7 @@ exports[`renders 1`] = `
         onTouchStart={[Function]}
         role="button"
         tabIndex={0}
-        to="/about"
+        to="/about-lsr"
       >
         <span
           className="MuiButton-label-40"
@@ -102,7 +102,7 @@ exports[`renders 1`] = `
           <div
             className="link-text"
           >
-            About
+            About LSR
           </div>
         </span>
         <span

@@ -25,8 +25,13 @@ export default {
       component: 'src/components/Services/component',
     },
     {
+      // Backwards-compatibility. TODO: Redirect automatically.
       path: '/about',
-      component: 'src/components/About/component',
+      component: 'src/components/AboutCompany/component',
+    },
+    {
+      path: '/about-lsr',
+      component: 'src/components/AboutCompany/component',
     },
     {
       path: '/testimonials',

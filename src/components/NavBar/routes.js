@@ -8,8 +8,8 @@ const routes = [
     displayName: 'Services',
   },
   {
-    path: '/about',
-    displayName: 'About',
+    path: '/about-lsr',
+    displayName: 'About LSR',
   },
   {
     path: '/testimonials',
