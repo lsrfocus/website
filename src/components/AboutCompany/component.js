@@ -33,19 +33,19 @@ class AboutCompany extends Component<Props> {
         <div className="section">
           <div className="subtitle">R – Refined</div>
           <div className="description">
-            {'Your users should be able to tell you what they want so that you can refine your product. Your product should be released as soon as it\'s lovable and simple, then iteratively improved.'}
+            {'Your product should be released as soon as your users find it to be lovable and simple, then it should be iteratively improved.'}
           </div>
         </div>
 
         <div className="section">
-          <div className="subtitle">How do I measure these things?</div>
+          <div className="subtitle">How are these things measured?</div>
           <div className="description">
-            {'Note how each of the above sections starts with "Your users". They are the ones who can tell you if your product meets these criteria.'}
+            {'Note how each of the above sections includes "your users". They are the ones who can tell you if your product meets these criteria.'}
           </div>
         </div>
 
         <div className="section">
-          <div className="subtitle">Why those three words?</div>
+          <div className="subtitle">Why these three words?</div>
           <div className="description">
             {'LSR comes from a combination of two important concepts in software development: '}
             <a href="http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">
