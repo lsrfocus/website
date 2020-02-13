@@ -84,7 +84,13 @@ exports[`renders 1`] = `
     Full website coming soon.
   </div>
   <div>
-    © 2018 LSR Software LLC
+    © 2020 LSR Software LLC •
+     
+    <a
+      href="https://github.com/lsrfocus/website"
+    >
+      View source
+    </a>
   </div>
 </div>
 `;

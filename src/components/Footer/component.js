@@ -25,7 +25,11 @@ class Footer extends Component<Props> {
       <div className={classNames(classes.footer, 'Footer')}>
         {renderSocialLinks()}
         <div>Full website coming soon.</div>
-        <div>&copy; 2018 LSR Software LLC</div>
+        <div>
+          &copy; 2020 LSR Software LLC &bull;
+          {' '}
+          <a href="https://github.com/lsrfocus/website">View source</a>
+        </div>
       </div>
     );
   }
