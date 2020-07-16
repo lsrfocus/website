@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "lsr-lib": "0.1.0",
     "material-ui": "1.0.0-beta.32",
     "nuka-carousel": "4.2.1",
